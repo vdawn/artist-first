@@ -1,0 +1,38 @@
+/* 底部tabbar (艺术馆/我的)*/
+
+.tabbar {
+  height: 8%;
+  width: 100%;
+  background-color: #fff;
+  position: fixed;
+  left:0;
+  bottom: 0;
+}
+
+.navigation {
+  border: 1px solid red;
+}
+
+.gallery, .my {
+  height: 100%;
+  width: 50%;
+  position: absolute;
+  font-size: 30rpx;
+}
+.gallery {
+  left: 0;
+}
+.my {
+  right: 0;
+}
+.gallery image, .my image {
+  height: 31rpx;
+  width: 32rpx;
+  margin-right: 30rpx;
+}
+.vertical{
+  height: 40rpx;
+  border-right:1px solid #E6E6E6;
+  position: absolute;
+  right:0;
+}

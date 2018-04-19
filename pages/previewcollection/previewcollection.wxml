@@ -1,0 +1,19 @@
+<!--pages/previewcollection/previewcollection.wxml-->
+
+
+<view class='pr container'>
+  <view class='pr frame'>
+    <image class='' src="{{previewcollection.pic}}"></image>
+    <view class='describe'>
+      <view class='name'>{{previewcollection.worksTitle}}</view>
+      <view class='line'>{{previewcollection.collectListEntities[0].collector}}/{{previewcollection.collectListEntities[0].bourse}}/ {{previewcollection.collectListEntities[0].price}} {{previewcollection.collectListEntities[0].unit}} / {{previewcollection.collectListEntities[0].date}} </view>
+    </view>
+  </view>
+
+  <view class='bottom '>
+    <view class='col sp  btn'>
+      <view class='jz btn1' bindtap='gorevise'>编辑</view>
+      <view class='jz btn2'>删除</view>
+    </view>
+  </view>
+</view>

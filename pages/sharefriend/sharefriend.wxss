@@ -1,0 +1,123 @@
+.container {
+  height: 100%;
+}
+
+.save {
+  height: 100%;
+}
+
+.save .pic {
+  height: 100%;
+  z-index: 96;
+  overflow: hidden;
+}
+
+.pic image {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+.pic .details {
+  position: absolute;
+  bottom: 40rpx;
+  font-size: 26rpx;
+  line-height: 40rpx;
+  color: #fff;
+  padding: 0 30rpx;
+}
+
+.pic .opus {
+  height: 30rpx;
+  margin-left: 30rpx;
+  margin-top: 40rpx;
+  font-size: 30rpx;
+  color: #fff;
+}
+
+.pic .introduction {
+  margin-bottom: 30rpx;
+}
+
+
+.bot-father {
+  width: 100%;
+  height: 208rpx;
+}
+
+.ewm {
+  height: 127rpx;
+  width: 127rpx;
+  border: 1rpx solid pink;
+  margin-left: 40rpx;
+  margin-right: 43rpx;
+}
+
+.bot-father .txt {
+  font-size: 26rpx;
+  color: #000;
+  line-height: 46rpx;
+}
+
+.theme {
+  font-weight: bold;
+}
+
+.footer {
+  height: 226rpx;
+  margin-top: 207rpx;
+  background-color: #e6e6e6;
+}
+
+.footer view {
+  font-size: 26rpx;
+   margin: 20rpx 0 20rpx 0 ; 
+}
+
+.btn {
+  width: 670rpx;
+  height: 80rpx;
+  line-height: 80rpx;
+  background-color: black;
+  color: #fff;
+  margin-bottom: 40rpx;
+  font-size: 30rpx;
+}
+
+.alert {
+ position: absolute;
+ margin-top:50%;  
+ margin-left:15%; 
+  z-index: 99;
+  width: 70%;
+  background-color:#fff;
+}
+
+.block {
+  width: 100%;
+  /* height: 380rpx; */
+  overflow: hidden;
+  display: block;
+}
+.block .success{
+  font-size: 30rpx;
+  margin-top:60rpx;
+  margin-bottom:40rpx;
+}
+.block .prompt{
+font-size:28rpx;
+  margin-bottom:60rpx;
+  line-height:45rpx;
+  padding:0 40rpx;
+}
+.block .confirm{
+font-size:30rpx;
+width:100%;
+height:89rpx;
+line-height:89rpx;
+border-top:1px solid #e6e6e6;
+color:#81C28D;
+}

@@ -1,0 +1,42 @@
+/* pages/introduceadd/introduceadd.wxss */
+.container {
+    height:100%;
+  padding: 40rpx 30rpx;
+   border-top: 1px solid #f0f0f0;
+}
+
+.write{
+  height:100%;
+}
+.frame{
+width:90%;
+height:75%;
+padding:40rpx;
+border:1rpx solid #f0f0f0;
+margin-bottom:30rpx;
+}
+textarea{
+  width:100%;
+  height:100%;
+  
+}
+.save{
+  width:90%;
+  height:80rpx;
+  background-color: #000;
+  color:#fff;
+}
+
+/* 文本 */
+.more {
+  font-size: 32rpx;
+  line-height:40rpx;
+  color: #181818;
+  margin-bottom:90rpx;
+}
+.btn{
+width:690rpx;
+height:80rpx;
+background-color:#000;
+color:#fff;
+}

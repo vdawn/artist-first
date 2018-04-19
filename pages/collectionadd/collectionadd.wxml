@@ -1,0 +1,21 @@
+<!--pages/collectionadd/collectionadd.wxml-->
+<view class='container'>
+  <!-- 添加 -->
+  <view class='jz add' bindtap="goreleaseTap">
+    <view class='jz'>+ 添加新的作品收藏记录</view>
+  </view>
+  <!-- 列表展示 -->
+  <view wx:for="{{collection}}" wx:key="key">
+    <view class='pr frame' bindtap='gocollect' data-worksid="{{item.worksId}}">
+      <image class='' src="{{item.worksEntity.pic}}"></image>
+      <view class='describe'>
+        <view class='name'>{{item.worksEntity.worksTitle}}</view>
+        <view class='line'>{{item.collector}} / {{item.bourse}} / {{item.price}} {{item.unit}} / {{item.date}}</view>
+      </view>
+    </view>
+    <view class='gap'></view>
+  </view>
+
+
+
+</view>

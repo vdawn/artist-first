@@ -1,0 +1,30 @@
+<!--pages/prizesadd/prizesadd.wxml-->
+<view class='container'>
+  <view class='jz add' bindtap="goreleaseTap">
+    <view class='jz'>+ 添加获奖记录</view>
+  </view>
+
+  <view wx:for="{{prizes}}" wx:key="key">
+    <view catchtap="godetailsTap" data-worksid="{{item.worksId}}">
+      <view class='pr frame'>
+        <image class='' src='{{item.pic}}'></image>
+        <view class='describe'>
+          <view class='name'>{{item.worksTitle}}</view>
+          <!-- <view class='row prizes'>
+          <image src='/image/a/icon_7_1.png'></image>
+           <view class='el'>{{item.winRecordEntities[0].awards}}/{{item.winRecordEntities[0].organization}}/{{item.winRecordEntities[0].date}}</view> 
+        </view> -->
+        </view>
+      </view>
+      <!-- 图外的 -->
+      <view class='list' wx:for="{{item.winRecordEntities}}" wx:key="key" wx:for-item="items">
+        <view class='row prizes'>
+          <image src='/image/a/icon_7_1.png'></image>
+          <view class='el'>{{items.awards}}/{{items.organization}}/{{items.date}}</view>
+        </view>
+      </view>
+
+      <view class='gap'></view>
+    </view>
+  </view>
+</view>

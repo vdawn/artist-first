@@ -1,0 +1,83 @@
+/* pages/search/search.wxss */
+
+.search {
+  height: 92rpx;
+  border-top: 1rpx solid #e6e6e6;
+  border-bottom: 1rpx solid #e6e6e6;
+}
+
+.icon {
+  height: 30rpx;
+  width: 30rpx;
+  margin: 0 20rpx;
+}
+
+.search input {
+  width: 500rpx;
+  height: 30rpx;
+  padding-left: 20rpx;
+  border-left: 1px solid #c6c6c6;
+}
+
+.determine {
+  position: absolute;
+  right: 20rpx;
+  width: 100rpx;
+  height: 60rpx;
+  line-height: 60rpx;
+  color: #fff;
+  font-size: 30rpx;
+  background: #000;
+}
+
+.title {
+  height: 76rpx;
+  line-height: 76rpx;
+  margin: 0 26rpx 0 30rpx;
+  border-bottom: 1px solid #f0f0f0;
+}
+
+.title .txt {
+  font-size: 26rpx;
+  color: #9b9b9b;
+}
+
+.title .more {
+  font-size: 26rpx;
+  color: #4a90e2;
+}
+
+.name {
+  height: 100rpx;
+  border-bottom: 1px solid #f0f0f0;
+  margin: 0 30rpx;
+}
+
+.name image {
+  height: 40rpx;
+  width: 40rpx;
+  margin-right: 20rpx;
+  border: 1px solid red;
+  border-radius: 50%;
+}
+
+.name text {
+  font-size: 26rpx;
+}
+.pic{
+  margin-bottom:20rpx;
+   background-color: red;
+}
+.pic image{
+  height: 436rpx;
+  width: 710rpx;
+  border: 1px solid red;
+}
+.pic text{
+  position: absolute;
+  left:40rpx;
+  bottom:40rpx;
+  font-size:30rpx;
+  color:#fff;
+ 
+}

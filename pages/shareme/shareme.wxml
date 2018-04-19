@@ -1,0 +1,35 @@
+<!--pages/shareme/shareme.wxml-->
+<!--pages/sharecomments/sharecomments.wxml-->
+<view class="container">
+  <view class='all'>
+    <view class='save'>
+      <!-- 作品及二维码 -->
+      <view class='pr top-father'>
+        <view class="pic">
+          <image src='/image/a/11111111.png'></image>
+        </view>
+        <view class="opus">特殊视角</view>
+        <view class='details'>
+          <view class='introduction'>刘益谦/
+            <text>保利秋拍/</text>
+            <text>10000万元/</text>
+            <text>2014.9</text>
+          </view>
+          <view class='honor'>2017年7月或北京夏季展2017年7月或北京夏季展2017年7月或北京夏季展2017年7月或北京夏季展</view>
+        </view>
+      </view>
+      <view class='bot-father'>
+        <view class="row jz ewm">
+           <image></image>
+           <view class="distinguish">
+             <view>识别小程序码</view>
+             <view class='into'>进入<text class='surprise'>达芬奇的艺术馆</text>欣赏更多内容</view>
+           </view>
+        </view>
+      </view>
+    </view>
+    <view class='footer'>
+      <view class='btn'>保存图片</view>
+    </view>
+  </view>
+</view>

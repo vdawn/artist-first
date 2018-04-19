@@ -1,0 +1,120 @@
+<!--pages/persona/persona.wxml-->
+<import src='../template/tabbar-template/tabbar-template.wxml' />
+<view class='container'>
+  <!-- 艺术家头部 -->
+  <view class="top">
+    <view class='left'>
+      <view>
+        <image class='headpic' src='{{userInfo.userEntity.avatar}}'></image>
+      </view>
+      <view class='name'>{{userInfo.userEntity.nickName}}</view>
+    </view>
+    <view class='right'>
+       <view class='go' hidden="{{hide1}}" catchtap="gocardTap">我是艺术家创建我的电子名片</view> 
+      <view class='go' hidden="{{hide2}}" catchtap="gostuffTap">我的主页</view>
+      <image class='arrow' src="/image/a/icon_8.png"></image>
+    </view>
+  </view>
+  <view class='gap'></view>
+  <!-- 中间三块 -->
+  <view class="Whole Whole1"  hidden="{{hide3}}">
+    <view class="strip" catchtap="">
+      <view>
+        <image class='icon' src="/image/a/icon_9_1.png"></image>
+      </view>
+      <view class='title'>我的名片</view>
+      <image class='arrows' src="/image/a/icon_8.png"></image>
+    </view>
+    <view class="strip" catchtap="">
+      <view>
+        <image class='icon' src="/image/a/icon_9_2.png"></image>
+      </view>
+      <view class='title'>作品管理</view>
+      <image class='arrows' src="/image/a/icon_8.png"></image>
+    </view>
+    <view class="strip" catchtap="gonameTap">
+      <view>
+        <image class='icon' src="/image/a/icon_9_3.png"></image>
+      </view>
+      <view class='title'>真实姓名</view>
+      <image class='arrows' src="/image/a/icon_8.png"></image>
+    </view>
+    <view class="strip" catchtap="goverificationTap">
+      <view>
+        <image class='icon' src="/image/a/icon_9_12.png"></image>
+      </view>
+      <view class='title'>手机号码</view>
+      <image class='arrows' src="/image/a/icon_8.png"></image>
+    </view>
+    <view class="strip" catchtap="golikemeTap">
+      <view>
+        <image class='icon' src="/image/a/icon_9_4.png"></image>
+      </view>
+      <view class='title'>我收到的喜欢</view>
+      <image class='arrows' src="/image/a/icon_8.png"></image>
+    </view>
+    <view class="strip" catchtap="gocomtmeTap">
+      <view>
+        <image class='icon' src="/image/a/Group 12.png"></image>
+      </view>
+      <view class='title'>我收到的评论</view>
+      <image class='arrows' src="/image/a/icon_8.png"></image>
+    </view>
+  </view>
+
+  <view class='gap'></view>
+  <view class="Whole Whole2">
+    <view class="strip" catchtap="gomycomtTap">
+      <view>
+        <image class='icon' src="/image/a/icon_9_6.png"></image>
+      </view>
+      <view class='title'>我的评论</view>
+      <image class='arrows' src="/image/a/icon_8.png"></image>
+    </view>
+    <view class="strip" catchtap="goarticleTap">
+      <view>
+        <image class='icon' src="/image/a/icon_9_7.png"></image>
+      </view>
+      <view class='title'>我喜欢的作品</view>
+      <image class='arrows' src="/image/a/icon_8.png"></image>
+    </view>
+    <view class="strip" catchtap="gofiguresTap">
+      <view>
+        <image class='icon' src="/image/a/icon_9_8.png"></image>
+      </view>
+      <view class='title'>我喜欢的艺术家</view>
+      <image class='arrows' src="/image/a/icon_8.png"></image>
+    </view>
+  </view>
+
+  <view class='gap'></view>
+  <view class="Whole Whole3">
+    <view class="strip" catchtap="goremindTap">
+      <view>
+        <image class='icon' src="/image/a/icon_9_9.png"></image>
+      </view>
+      <view class='title'>提醒设置</view>
+      <image class='arrows' src="/image/a/icon_8.png"></image>
+    </view>
+    <view class="strip" catchtap="gofeedbackTap">
+      <view>
+        <image class='icon' src="/image/a/icon_9_10.png"></image>
+      </view>
+      <view class='title'>意见反馈</view>
+      <image class='arrows' src="/image/a/icon_8.png"></image>
+    </view>
+    <view class="strip" catchtap="gousTap">
+      <view>
+        <image class='icon' src="/image/a/icon_9_11.png"></image>
+      </view>
+      <view class='title'>关于我们</view>
+      <image class='arrows' src="/image/a/icon_8.png"></image>
+    </view>
+  </view>
+  <!-- 联系客服 -->
+  <view class='jz contact'>
+    <view class='black'>
+      <text>联系客服</text>
+    </view>
+  </view>
+</view>

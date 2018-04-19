@@ -1,0 +1,14 @@
+<!--pages/comments/comments.wxml-->
+<view class="container">
+  <view class='row title'>
+    <text>{{comments.title}}</text>
+  </view>
+   <!-- 作品图片 -->
+    <view class='col jz opus'>
+    <!-- <image src="" mode="widthFix"></image> -->
+         <image src="{{comments.picUrl}}" mode="widthFix"></image>  
+    </view>
+    <view class='content'>
+      <text>{{comments.content}}</text>
+    </view> 
+</view>

@@ -1,0 +1,40 @@
+<!--pages/comtme/comtme.wxml-->
+<view class='container'>
+
+    <view class='row father'>
+      <image></image>
+      <view class=''>
+        <view>
+          <text class='fans'>单迷妹 </text> 评论了我的作品
+          <text class='opus'>[蒙拉丽莎]</text>
+        </view>
+        <view class='time'>2017-12-11 16:22</view>
+        <view class='txt'>啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦</view>
+      </view>
+    </view>
+
+<view class='row father'>
+      <image></image>
+      <view class=''>
+        <view>
+          <text class='fans'>单迷妹 </text> 评论了我的作品
+          <text class='opus'>[蒙拉丽莎]</text>
+        </view>
+        <view class='time'>2017-12-11 16:22</view>
+        <view class='txt'>啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦</view>
+      </view>
+    </view>
+    <view class='row father'>
+      <image></image>
+      <view class=''>
+        <view>
+          <text class='fans'>单迷妹 </text> 评论了我的作品
+          <text class='opus'>[蒙拉丽莎]</text>
+        </view>
+        <view class='time'>2017-12-11 16:22</view>
+        <view class='txt'>啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦</view>
+      </view>
+    </view>
+
+
+  </view>

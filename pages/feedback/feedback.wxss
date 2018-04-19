@@ -1,0 +1,50 @@
+/* pages/feedback/feedback.wxss */
+page{
+}
+
+.opinion {
+  height: 76rpx;
+  color: #555;
+  font-size: 26rpx;
+  line-height: 26rpx;
+  background-color: #f8f8f8;
+  padding-left: 30rpx;
+}
+
+textarea {
+  width: 90%;
+  height: 419rpx;
+  margin-left: 5%;
+  margin-top: 30rpx;
+  font-size: 30rpx;
+  line-height: 50rpx;
+}
+
+.prompt {
+  height: 76rpx;
+  color: #555;
+  font-size: 26rpx;
+  line-height: 26rpx;
+  background-color: #f8f8f8;
+  padding-left: 30rpx;
+}
+
+input {
+  height: 110rpx;
+  font-size: 30rpx;
+  padding-left: 30rpx;
+}
+.bottom{
+  height: 500rpx;
+   background-color: #f8f8f8;
+   padding-top:50rpx;
+}
+.submit {
+  height: 80rpx;
+  width: 670rpx;
+  opacity: 0.2;
+  color: #fff;
+  background: #000;
+  text-align: center;
+  margin: 0 auto;
+}

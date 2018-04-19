@@ -1,0 +1,18 @@
+<!--pages/mycomt/mycomt.wxml-->
+<view class='container'>
+    <view class='father'>
+         <view><text class='master'>我</text>评论了<text class='who'>巴拉巴拉熊</text>的作品[<text>蒙拉丽莎</text>]</view>
+         <view class='time'>2017-12-11 16:22</view>
+         <view>无人舰艇等一系列无人装备。俄罗斯卫星网称，颇为吸引人的是在老式59坦克基础上改装的无人坦克：一名解放军士兵坐在计算机操作台前，如同打电玩游戏一样转动着方向盘，不远处的一辆59式坦克就自己开动起来。在操作员的熟练操作下，这辆59坦克能够轻松完成前进、后退动作，看上去科技感十足。</view>
+    </view>
+ <view class='father'>
+         <view><text class='master'>我</text>评论了<text class='who'>巴拉巴拉熊</text>的作品[<text>蒙拉丽莎</text>]</view>
+         <view class='time'>2017-12-11 16:22</view>
+         <view>无人舰艇等一系列无人装备。俄罗斯卫星网称，颇为吸引人的是在老式59坦克基础上改装的无人坦克：一名解放军士兵坐在计算机操作台前，如同打电玩游戏一样转动着方向盘，不远处的一辆59式坦克就自己开动起来。在操作员的熟练操作下，这辆59坦克能够轻松完成前进、后退动作，看上去科技感十足。</view>
+    </view>
+     <view class='father'>
+         <view><text class='master'>我</text>评论了<text class='who'>巴拉巴拉熊</text>的作品[<text>蒙拉丽莎</text>]</view>
+         <view class='time'>2017-12-11 16:22</view>
+         <view>无人舰艇等一系列无人装备。俄罗斯卫星网称，颇为吸引人的是在老式59坦克基础上改装的无人坦克：一名解放军士兵坐在计算机操作台前，如同打电玩游戏一样转动着方向盘，不远处的一辆59式坦克就自己开动起来。在操作员的熟练操作下，这辆59坦克能够轻松完成前进、后退动作，看上去科技感十足。</view>
+    </view>
+</view>

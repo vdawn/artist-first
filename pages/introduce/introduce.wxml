@@ -1,0 +1,6 @@
+<!--pages/introduce/introduce.wxml-->
+<view class=' container'>
+   <view class='more'>
+    <text>{{intro}}啦啦啦</text>
+  </view> 
+</view>

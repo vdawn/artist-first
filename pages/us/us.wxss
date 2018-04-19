@@ -1,0 +1,31 @@
+/* pages/us/us.wxss */
+.container{
+border-top:1rpx solid #f0f0f0;
+padding:60rpx 40rpx 0;
+font-size: 30rpx;
+line-height: 30rpx;
+}
+.yicui{
+  font-size: 40rpx;
+line-height: 40rpx;
+padding-bottom:40rpx;
+border-bottom:1rpx solid #f0f0f0;
+}
+.txt{
+line-height: 52rpx;
+padding-top:40rpx;
+margin-bottom:60rpx;
+}
+.tel{
+  width:670rpx;
+  height:80rpx;
+font-weight: bold;
+border:1rpx solid #000;
+margin-bottom:30rpx;
+}
+.contact{
+  width:670rpx;
+  height:80rpx;
+color:#fff;
+background-color:#000; 
+}

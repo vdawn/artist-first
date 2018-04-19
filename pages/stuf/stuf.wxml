@@ -1,0 +1,46 @@
+<!--pages/stuf/stuf.wxml-->
+<view class='container'>
+  <view class='pr card'>
+    <image class='bgpic' src='{{bgPic}}'></image>
+    <view class='name'>{{artistName}}</view>
+    <!-- <view class='edit' catchtap="gocardTap">编辑封面</view> -->
+    <image class='arrow' src='/image/a/icon_3.png'></image>
+  </view>
+  <view class='pr information'>
+    <view class='jz head' catchtap="chooseImageTap">
+      <!-- src="{{headpic}}"  -->
+      <image class='headpic' src='{{headpic}}'></image>
+    </view>
+    <view class="tip">
+      <image src='/image/a/img_001.png' mode="widthFix"></image>
+    </view>
+    <view class='col sp inputs'>
+      <input class="input1" placeholder='姓名' maxlength='6' bindblur="nickNameInput"></input>
+      <input class="input2" placeholder='输入您的个性签名' maxlength='40' bindblur="signatureInput"></input>
+    </view>
+    <view class='gap'></view>
+  </view>
+   <view class='tape'>
+    <view class='row sp'>
+      <image class='icon' src='/image/a/icon_4.png'></image>
+      <view class='sp tofans'>跟您的粉丝说几句话吧</view>
+    </view>
+  </view> 
+  <view class="info">
+    <view class='tip'>为了方便我们为您推荐，请填写以下个人信息</view>
+    <view class='row frame'>
+      <view class='jz'>姓 名</view>
+      <input placeholder='请输入您的姓名' maxlength='10' bindblur="userNameInput"></input>
+    </view>
+    <view class='row pr frame'>
+      <view class='jz'>手机号</view>
+      <input placeholder='请输入您的手机号' maxlength='12' type="number" bindblur="phoneInput"></input>
+      <view class="validate" catchtap="verification">获取验证码</view>
+    </view>
+    <view class='row frame'>
+      <view class='jz' maxlength='10'>验证码</view>
+      <input placeholder='请输入验证码' bindblur="codeInput"></input>
+    </view>
+    <view class='jz save2' catchtap="gostuffTap">保存</view>
+  </view>
+</view>

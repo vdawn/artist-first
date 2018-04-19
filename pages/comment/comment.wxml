@@ -1,0 +1,25 @@
+<!--pages/comment/comment.wxml-->
+<view class='container'>
+  <view class='all' wx:for="{{comment}}" wx:key="key" catchtap="oncommentsTap"  data-famousRemarkid="{{item.famousRemarkId}}">
+    <!-- 标题 -->
+    <view class='jz block'>
+      <view class='frame'>
+        <view class='title'>{{item.title}}</view>
+        <view class='jz icon'>
+          <image src=''></image>
+        </view>
+      </view>
+    </view>
+    <!-- 作品图片 -->
+    <!-- <view class='col jz opus'>
+       <image src='{{item.picUrl}}'></image>
+    </view> -->
+    <!-- 内容 -->
+    <view class='jz txt'>
+      <view class='content'>
+        <text>{{item.content}}</text>
+      </view>
+    </view>
+    <view class='gap'></view>
+  </view>
+</view>

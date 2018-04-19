@@ -1,0 +1,32 @@
+<!--pages/commentedit/commentedit.wxml-->
+<view class="container">
+  <view class='title'>
+    <view class='txt'>标题</view>
+    <input placeholder='请输入' maxlength='25' bindblur="titleInput"></input>
+  </view>
+  <view class='comment'>
+    <view class='txt'>点评内容</view>
+    <textarea placeholder='请输入' maxlength='500' bindinput="bindTextAreaBlur"></textarea>
+    <view class='camera col jz'  catchtap="chooseImageTap">
+      <!-- <image src='/image/a/icon_20_7.png'></image>
+      <view>添加图片</view> -->
+      <image src='{{picurl}}' ></image>
+    </view>
+  </view>
+  <view class='cz save'>
+    <view class='txt jz' catchtap="saveTap">保存</view>
+  </view>
+
+    <!-- 作品提示框 -->
+  <view class='col sp prompt' hidden="{{hide}}">
+    <image src='/image/a/icon_20_20.png'></image>
+    <view>请填写标题</view>
+  </view>
+
+  <view class='col sp prompt' hidden="{{hide2}}">
+     <image src='/image/a/icon_20_20.png'></image>
+    <view>请填写点评内容</view>
+  </view>
+
+
+</view>

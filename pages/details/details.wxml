@@ -1,0 +1,100 @@
+<!--pages/details/details.wxml-->
+<import src='../template/navigation-template/navigation-template.wxml' />
+<view class="container">
+  <!--轮播图 autoplay="true" interval="2000" -->
+  <swiper class='swiper' indicator-dots="true" indicator-color="#ccc" indicator-active-color="#fff" circular="true">
+    <block wx:for="{{details.picList}}" wx:key="key">
+      <swiper-item class="son2">
+        <image src="{{item}}"></image>
+      </swiper-item>
+    </block>
+  </swiper>
+  <!-- 简答介绍 -->
+  <view class='pr describe'>
+    <view class='name'>{{details.worksTitle}}</view>
+    <view class='tag'>
+      <view class='row sp tag1'>
+        <view class='icon'></view>
+        <text>{{details.collectListEntities[0].collector}}/{{details.collectListEntities[0].price}}/{{details.collectListEntities[0].unit}}{{details.collectListEntities[0].date}}/{{details.collectListEntities[0].bourse}}</text>
+      </view>
+      <view class='row sp tag1'>
+        <view class='icon'></view>
+        <text>藏于{{details.museumarts}}/{{details.width}}cm*{{details.height}}cm/{{details.creationYear}}年</text>
+      </view>
+    </view>
+  </view>
+  <view class='gap'></view>
+  <!-- 音频 -->
+  <view class='voice'>
+  </view>
+  <view class='gap'></view>
+  <!-- 获奖记录 -->
+  <view class='winning'>
+    <view class='title'>
+      <view class='win'>获奖记录</view>
+    </view>
+
+    <view class='record' wx:for="{{details.winRecordEntities}}" wx:key="key">
+      <view class='row strip'>
+        <view class='icon'>
+          <image src="/image/a/icon_7_1.png"></image>
+        </view>
+        <text class='details'>{{item.awards}}/{{item.organization}}/{{item.date}}</text>
+      </view>
+    </view>
+  </view>
+  <view class='gap'></view>
+  <!-- 评论 -->
+  <view class='winning'>
+    <view class='title'>
+      <view class='win'>评论</view>
+    </view>
+    <!-- 评论内容 -->
+    <view class='record' wx:for="{{comments}}" wx:key="key">
+      <view class='row participant'>
+        <view class='left'>
+          <view class='headpic'>
+            <image src=""></image>
+          </view>
+        </view>
+        <view class='col commentator' >
+          <text class='name'>姓名</text>
+          <text class='time'>时间</text>
+          <text class='txt'>{{item.content}}</text>
+        </view>
+        <!-- 点赞，删除 -->
+      </view>
+      <view class='option'>
+        <view>
+          <image src="/image/a/icon_7_2.png"></image>
+        </view>
+        <view>
+          <image src="/image/a/icon_7_3.png"></image>
+          <text>0</text>
+        </view>
+        <view>
+          <image src="/image/a/icon_7_4.png"></image>
+          <text>122</text>
+        </view>
+        <view>
+          <image src="/image/a/icon_7_5.png"></image>
+          <text>22</text>
+        </view>
+      </view>
+    </view>
+
+
+
+
+  </view>
+  <view class='sp pr thought'>
+    <image class='icon'></image>
+    <input placeholder='说说对这件作品的感想。。'></input>
+    <view class='jz'>发送</view>
+  </view>
+  <view class='gap'></view>
+  <!-- 底部导航 -->
+  <view class='tabbar'>
+  <template is='navTemplate' />
+  </view>
+</view>

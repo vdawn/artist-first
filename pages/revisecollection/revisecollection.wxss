@@ -1,0 +1,41 @@
+/* pages/revisecollection/revisecollection.wxss */
+.container {
+  font-size: 34rpx;
+  border-top: 1rpx solid #f0f0f0;
+}
+.txt {
+  padding: 34rpx 30rpx;
+  border-bottom: 1rpx solid #f0f0f0;
+  position: relative;
+}
+
+.txt1 {
+  margin-bottom: 20rpx;
+  font-size: 30rpx;
+  color: #828282;
+}
+.occupy{
+  position: absolute;
+  width:111rpx;
+  height:50rpx;
+  top: 97rpx;
+  right:50rpx;
+  z-index: 99;
+}
+.arrows {
+  width: 12rpx;
+  height: 21rpx;
+  position: absolute;
+  top: 110rpx;
+  right:30rpx;
+}
+
+
+
+.finish{
+height:90rpx;
+   width:80%;
+   margin-top:50rpx;
+   color: #fff;
+   background-color: #000;
+}

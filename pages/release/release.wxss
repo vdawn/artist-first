@@ -1,0 +1,143 @@
+/* pages/release/release.wxss */
+
+.uploadpic {
+  /* padding: 20rpx; */
+  margin-top: 20rpx;
+  padding-left: 3%;
+}
+
+.upload {
+  width: 100%;
+  color: #81c28d;
+   display: flex;
+  -webkit-flex-wrap: wrap;
+  flex-wrap: wrap; 
+  border:1rpx solid blue;
+}
+
+.show {
+  width: 30%;
+  height: 170rpx;
+  margin-bottom: 35rpx;
+  margin-right: 3%;
+}
+
+.show image {
+  width: 100%;
+  height: 100%;
+}
+
+.other {
+  width: 30%;
+  height: 170rpx;
+  margin-bottom: 35rpx;
+  margin-right: 3%;
+}
+
+.othershow {
+  width: 100%;
+  height: 100%;
+}
+
+.delete {
+  position: absolute;
+  top: -18rpx;
+  right: 0;
+  width: 35rpx;
+  height: 35rpx;
+  background-color: red;
+  border-radius: 50%;
+}
+
+/* .upload .add {
+  margin-top: 40rpx;
+  font-size: 50rpx;
+  margin-bottom: 25rpx;
+} */
+
+.Whole {
+  width: 100%;
+  border-top: 1px solid #e6e6e6;
+}
+
+.strip {
+  width: 100%;
+  height: 133rpx;
+  display: flex;
+  flex-direction: row;
+  border-bottom: 1px solid #e6e6e6;
+  position: relative;
+}
+
+.icon {
+  width: 40rpx;
+  height: 40rpx;
+  margin: 49rpx 20rpx 49rpx 30rpx;
+}
+
+.title {
+  height: 30rpx;
+  margin-top: 50rpx;
+  padding-left: 30rpx;
+  font-size: 30rpx;
+  color: #181818;
+}
+
+.strip .occupy {
+  position: absolute;
+  top: 50rpx;
+  right: 60rpx;
+  display: flex;
+  justify-content: flex-end;
+  width: 300rpx;
+}
+
+.title>text {
+  color: #4a90e2;
+}
+
+.arrows {
+  width: 12rpx;
+  height: 21rpx;
+  position: absolute;
+  top: 63rpx;
+  right: 30rpx;
+}
+
+.release {
+  width: 100%;
+  height: 140rpx;
+}
+
+.release  .txt {
+  width: 80%;
+  height: 80rpx;
+  color: #fff;
+  background-color: #000;
+}
+
+.prompt {
+  width: 520rpx;
+  height: 260rpx;
+  opacity: 0.4;
+  background: #000;
+  border-radius: 8px;
+  position: fixed;
+  left: 50%;
+  margin-left: -260rpx;
+  bottom: 50%;
+}
+
+.prompt image {
+  width: 60rpx;
+  height: 60rpx;
+  margin-top: 54rpx;
+  margin-bottom: 30rpx;
+}
+
+.prompt view {
+  font-size: 40rpx;
+  color: #fff;
+  letter-spacing: 0;
+  line-height: 40px;
+}

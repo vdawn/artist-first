@@ -1,0 +1,19 @@
+<!--pages/mienadd/mienadd.wxml-->
+<view class='container'>
+  <!-- 添加图片 -->
+  <view class='jz frame' bindtap="gomieneditTap">
+    <view class='row jz dotted'>
+      <view>+ 添加照片</view>
+    </view>
+  </view>
+
+  <!-- 图片及文字描述 -->
+  <!-- <view class='all' catchtap="onmienaddTap" data-albumid="{{item.albumId}}"> -->
+  <view class='all' wx:for="{{mien}}" wx:key="key" catchtap="onmienaddTap" data-albumid="{{item.albumId}}">
+    <view class='pic'>
+      <image src='{{item.pic}}'></image>
+    </view>
+    <view class='el txt'>{{item.description}}</view>
+    <view class='gap'></view>
+  </view>
+</view>

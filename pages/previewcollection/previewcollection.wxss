@@ -1,0 +1,42 @@
+/* pages/previewcollection/previewcollection.wxss */
+.container{
+  height:100%;
+}
+.frame {
+  height: 460rpx;
+}
+.frame image{
+ height:100%;
+ width:100%;
+  z-index:1;
+}  
+.frame .describe{
+  position: absolute;
+  bottom:20rpx;
+  left:30rpx;
+ font-size:26rpx;
+ /* color:#fff; */
+ z-index:99;
+}  
+.describe .name{
+ font-size:30rpx;
+  margin-bottom:15rpx;
+}
+.bottom{
+  width:100%;
+  position: fixed;
+  bottom:0;
+}
+.btn view{
+  width:670rpx;
+  height:80rpx;
+}
+.btn1{
+  background-color:#000;
+  border:1rpx solid #000;
+  color:#fff;
+}
+.btn2{
+  border:1rpx solid #000;
+  margin:30rpx 0 60rpx 0;
+}

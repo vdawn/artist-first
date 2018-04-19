@@ -1,0 +1,16 @@
+<!--pages/edit/edit.wxml-->
+<view class='container'>
+  <view class='gap'></view>
+  <view class='bt sp strip' catchtap="chooseImageTap">
+    <view>头像</view>
+    <image src='{{headpic}}'></image>
+  </view>
+  <view class='bt sp strip' bindtap="gomodify1Tap">
+    <view>昵称</view>
+     <view>{{nickName}}</view> 
+  </view>
+  <view class='bt sp strip' bindtap="gomodify2Tap">
+    <view>个性签名</view>
+     <view class='end'><view class='text_slice'>{{signature}}</view></view> 
+  </view>
+</view>

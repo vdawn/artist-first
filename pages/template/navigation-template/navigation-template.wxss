@@ -1,0 +1,25 @@
+.sa{
+  width:33.3%;
+  height:100rpx;
+}
+
+.sa .frame{
+  margin-top:22rpx;
+  margin-bottom:13rpx;
+}
+ .sa .frame image{
+   width:37rpx;
+  height:34rpx; 
+
+} 
+.sa view{
+   text-align: center; 
+   font-size:20rpx; 
+}
+.vertical{
+  height: 40rpx;
+  border-right:1px solid #ededed;
+  position: absolute;
+  right:0;
+  top:36rpx;
+}

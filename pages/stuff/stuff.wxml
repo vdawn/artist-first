@@ -1,0 +1,103 @@
+<!--pages/stuff/stuff.wxml-->
+<import src='../template/navigation2-template/navigation2-template.wxml' />
+<view class='container'>
+  <view class='pr card'>
+    <image class='bgpic' src='{{bgPic}}'></image>
+    <view class='name'> {{artistName}}</view>
+    <view class='edit' catchtap="gocardTap">编辑封面</view>
+    <image class='arrow' src='/image/a/icon_3.png'></image>
+  </view>
+  <view class='pr information'>
+    <view class='jz head'>
+      <image class='headpic' src='{{information.userEntity.avatar}}'></image>
+    </view>
+    <view class='col sp with'>
+      <view class='name'>{{information.userEntity.nickName}}</view>
+      <view class='jz autograph'><view>{{information.userEntity.signature}}</view></view>
+      <view class='jz redpencil' catchtap="goeditTap">
+        <image class="iconedit" src='/image/a/icon_11.png'></image>编辑
+      </view>
+    </view>
+    <view class='gap'></view>
+  </view>
+  <!-- 录制语音 -->
+  <view class='tape'>
+    <view class='row sp'>
+      <image class='icon' src='/image/a/icon_4.png'></image>
+      <view class='sp tofans'>跟您的粉丝说几句话吧</view>
+    </view>
+  </view>
+
+  <!-- 五个导航 -->
+  <view>
+    <view class='row tab'>
+      <view class='jz neighborhood' catchtap="gointroduceaddTap">
+        <view class='father'>
+          <view class='jz frame'>
+            <image src='/image/a/icon_5_1.png'></image>
+          </view>
+          <view>简介</view>
+        </view>
+      </view>
+      <view class='jz neighborhood' catchtap="gocollectionaddTap">
+        <view class='father'>
+          <view class='jz frame'>
+            <image src='/image/a/icon_5_2.png'></image>
+          </view>
+          <view>收藏记录</view>
+        </view>
+      </view>
+      <view class='jz neighborhood' catchtap="goprizesaddTap">
+        <view class='father'>
+          <view class='jz frame'>
+            <image src='/image/a/icon_5_3.png'></image>
+          </view>
+          <view>获奖记录</view>
+        </view>
+      </view>
+      <view class='jz neighborhood' catchtap="gocommentaddTap">
+        <view class='father'>
+          <view class='jz frame'>
+            <image src='/image/a/icon_5_4.png'></image>
+          </view>
+          <view>名家点评</view>
+        </view>
+      </view>
+      <view class='jz neighborhood' catchtap="gomienaddTap">
+        <view class='father'>
+          <view class='jz frame'>
+            <image src='/image/a/icon_5_5.png'></image>
+          </view>
+          <view>相册</view>
+        </view>
+      </view>
+    </view>
+    <!-- 填资料提示语 -->
+     <view class='tip' hidden="{{hint}}">
+      <image src='/image/a/img_002.png'></image>
+    </view> 
+  </view>
+
+   <!-- 作品展示 -->
+      <view class='works col' wx:for="{{list}}" wx:key="key" catchtap="godetailsTap" data-worksid="{{item.worksId}}">
+        <view class='pr draw'>
+          <view class='box'>
+            <image src="{{item.worksEntity.pic}}"></image>
+          </view>
+          <text>{{item.worksEntity.worksTitle}}</text>
+        </view>
+        <view class='gap2'></view>
+      </view>
+      
+  <!-- 上传作品-->
+   <view class='pload' catchtap="goreleaseTap">
+    <view class='jz'>
+      + 点击这里,上传作品
+    </view>
+  </view> 
+
+    <!-- 底部导航 -->
+  <view class='bottom'>
+     <template is='navTemplate' /> 
+  </view>
+</view>

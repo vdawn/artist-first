@@ -1,0 +1,12 @@
+<!--pages/intro/intro.wxml-->
+<view class=' container'>
+  <!-- 填写 -->
+  <view class="write">
+    <view class='frame'>
+      <textarea maxlength="500" bindinput="bindTextAreaBlur" placeholder=''></textarea>
+    </view>
+    <view class='cz' catchtap="gostuffTap">
+      <view class="jz save">保存</view>
+    </view>
+  </view>
+</view>

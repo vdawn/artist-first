@@ -1,0 +1,17 @@
+<!--pages/verification/verification.wxml-->
+<view class='sp container'>
+  <view class='row block1'>
+    <view class='jz'>手机号</view>
+    <view class='jz'>
+      <input maxlength='12' type="number" bindinput="phoneInput" value='{{phone}}'></input>
+    </view>
+    <view class='jz send' bindtap="verification">发送验证码</view>
+  </view>
+  <view class='row block1'>
+    <view class='jz' maxlength='10' bindblur="codeInput">验证码</view>
+    <view class='jz'>
+      <input></input>
+    </view>
+  </view>
+  <view class='block1 save jz' bindtap="save">保存</view>
+</view>

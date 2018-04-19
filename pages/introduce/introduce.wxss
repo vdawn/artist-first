@@ -1,0 +1,11 @@
+/* pages/introduce/introduce.wxss */
+.container {
+    height:100%;
+  padding: 40rpx 30rpx;
+   border-top: 1px solid #f0f0f0;
+}
+.more {
+  font-size: 32rpx;
+  line-height:40rpx;
+  color: #181818;
+}

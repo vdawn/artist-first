@@ -1,0 +1,62 @@
+<!--pages/figures/figures.wxml-->
+<view class='container'>
+
+      <view class='row sp father'>
+          <image ></image>
+          <view class='col'>
+             <text class='txt1'>啦啦啦</text>
+             <text class='txt2'>2018-09-17 09:45</text>
+          </view>
+      </view>
+       <view class='row sp father'>
+          <image ></image>
+          <view class='col'>
+             <text class='txt1'>啦啦啦</text>
+             <text class='txt2'>2018-09-17 09:45</text>
+          </view>
+      </view>
+       <view class='row sp father'>
+          <image ></image>
+          <view class='col'>
+             <text class='txt1'>啦啦啦</text>
+             <text class='txt2'>2018-09-17 09:45</text>
+          </view>
+      </view>
+       <view class='row sp father'>
+          <image ></image>
+          <view class='col'>
+             <text class='txt1'>啦啦啦</text>
+             <text class='txt2'>2018-09-17 09:45</text>
+          </view>
+      </view>
+       <view class='row sp father'>
+          <image ></image>
+          <view class='col'>
+             <text class='txt1'>啦啦啦</text>
+             <text class='txt2'>2018-09-17 09:45</text>
+          </view>
+      </view>
+       <view class='row sp father'>
+          <image ></image>
+          <view class='col'>
+             <text class='txt1'>啦啦啦</text>
+             <text class='txt2'>2018-09-17 09:45</text>
+          </view>
+      </view>
+       <view class='row sp father'>
+          <image ></image>
+          <view class='col'>
+             <text class='txt1'>啦啦啦</text>
+             <text class='txt2'>2018-09-17 09:45</text>
+          </view>
+      </view>
+       <view class='row sp father'>
+          <image ></image>
+          <view class='col'>
+             <text class='txt1'>啦啦啦</text>
+             <text class='txt2'>2018-09-17 09:45</text>
+          </view>
+      </view>
+      
+
+</view>

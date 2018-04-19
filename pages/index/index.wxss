@@ -1,0 +1,44 @@
+/* pages/index/index.wxss */
+@import "../template/tabbar-template/tabbar-template.wxss";
+@import "../template/hint-template/hint-template.wxss";
+.container{
+   width: 100%;
+  height: 100%;
+}
+.head{
+   width:100%; 
+height:90rpx;
+}
+.all{
+  width: 100%;
+  height: 100%;
+}
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+.prompt{
+ position:absolute;
+  top:0;
+  left:0;
+  width: 100%;
+  height: 90rpx;
+  z-index: 99;
+}
+
+swiper-item {
+  width: 100%;
+  height:100%;
+}
+ swiper-item image {
+  width: 100%;
+  height:100%;
+} 
+.name {
+  position: absolute;
+  top: 30%;
+  right: 0;
+  width: 120rpx;
+  font-size: 80rpx;
+}

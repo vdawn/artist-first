@@ -1,0 +1,60 @@
+/* pages/mienedit/mienedit.wxss */
+.container{
+border-top:1rpx solid #f0f0f0;
+  background-color: #f0f0f0;
+}
+.frame{
+  height:506rpx;
+  border-bottom:1rpx solid #f0f0f0;
+  background-color: #fff;
+}
+.frame image{
+  height:436rpx;
+  width:710rpx;
+}
+.describe {
+  padding: 30rpx;
+  background-color: #fff;
+}
+
+.describe .txt {
+  margin-bottom: 30rpx;
+}
+
+.describe textarea {
+  height:537rpx;
+  width: 100%;
+}
+.save .txt {
+  height: 80rpx;
+  width: 670rpx;
+  background-color: #000;
+  /* opacity: .2; */
+  color: #fff;
+  margin: 40rpx 0;
+}
+.prompt {
+  width: 520rpx;
+  height: 260rpx;
+  opacity: 0.4;
+  background: #000;
+  border-radius: 8px;
+  position: fixed;
+  left: 50%;
+  margin-left: -260rpx;
+  bottom: 50%;
+}
+
+.prompt image {
+  width: 60rpx;
+  height: 60rpx;
+  margin-top: 54rpx;
+  margin-bottom: 30rpx;
+}
+
+.prompt view {
+  font-size: 40rpx;
+  color: #fff;
+  letter-spacing: 0;
+  line-height: 40px;
+}

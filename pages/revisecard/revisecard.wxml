@@ -1,0 +1,14 @@
+ <!-- pages/revisecard/revisecard.wxml     -->
+<view class='container'>
+  <view class='card'>
+    <view class='txt'>
+      <textarea class='name' bindinput="bindTextAreaBlur" auto-height="true" maxlength="4" placeholder-class="textarea-placeholder" value='{{artistName}}'/>
+    </view>
+        <image src="{{bgPic}}"></image>
+    <view class='row jz button'>
+      <view class='jz btn1' bindtap="chooseImageTap">更换封面</view>
+      <view class='jz btn2' bindtap="saveTap">保存</view>
+    </view>
+
+  </view>
+</view>

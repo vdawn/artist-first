@@ -1,0 +1,11 @@
+<!--pages/production/production.wxml-->
+<view class='container'>
+  <view class='all'>
+    <view class='col txt'>
+      <input placeholder='请输入作品名' placeholder-style='color:#C6C6C6'></input>
+    </view>
+  </view>
+  <view class='jz'>
+    <view class='jz finish'>保存</view>
+  </view>
+</view>

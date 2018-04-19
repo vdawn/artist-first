@@ -1,0 +1,17 @@
+<!--pages/mien/mien.wxml-->
+<view class='container'>
+  <!-- 添加图片 -->
+  <!-- <view class='jz frame'>
+    <view class='row jz dotted'>
+      <view>+ 添加照片</view>
+    </view>
+  </view>
+  <view class='gap'></view> -->
+  <!-- 图片及文字描述 -->
+  <view class='all' wx:for="{{mien}}" wx:key="key" catchtap="onmienaddTap" data-albumid="{{item.albumId}}">
+    <view class='pic'>
+      <image src='{{item.pic}}'></image>
+    </view>
+    <view class='txt'>{{item.description}}111</view>
+  </view>
+</view>

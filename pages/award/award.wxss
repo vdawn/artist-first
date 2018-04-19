@@ -1,0 +1,44 @@
+/* pages/award/award.wxss */
+
+.container {
+  font-size: 30rpx;
+  border-top: 1rpx solid #f0f0f0;
+}
+
+.add {
+  height: 170rpx;
+  margin: 30rpx 20rpx;
+  border: 1rpx dotted #81c28d;
+  color: #81c28d;
+}
+
+.txt {
+  padding: 34rpx 30rpx;
+  border-bottom: 1rpx solid #f0f0f0;
+}
+
+.txt1 {
+  margin-bottom: 30rpx;
+  font-size: 26rpx;
+  color: #828282;
+}
+
+.operation {
+  height: 90rpx;
+  justify-content: flex-end;
+  padding-right:30rpx;
+    border-bottom: 1rpx solid #f0f0f0;
+}
+ .operation text{
+ margin-left:15rpx;
+}
+.icon1{
+   height: 22.8rpx;
+   width:25.3rpx;
+
+}
+.icon2{
+   height: 28.3rpx;
+   width:22rpx;
+   margin-left:60rpx;
+}

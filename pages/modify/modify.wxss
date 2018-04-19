@@ -1,0 +1,76 @@
+/* pages/modify/modify.wxss */
+.container{
+  border-top: 1rpx solid #f0f0f0;
+  font-size:32rpx;
+}
+.frame {
+  height: 289rpx;
+}
+
+.frame> view {
+  height: 209rpx;
+  width: 340rpx;
+  border: 1rpx solid red;
+}
+
+.opus {
+  margin-right: 20rpx;
+}
+
+.opus image {
+  height: 209rpx;
+  width: 340rpx;
+}
+
+.close {
+  position: absolute;
+  top:-25rpx;
+  right: -5rpx;
+}
+
+.close image {
+  height: 36rpx;
+  width: 36rpx;
+}
+.frame .add{
+  font-size: 30rpx;
+  border: 1px dotted #81C28D;
+  color:#81C28D;
+}
+.add view{
+  font-size: 60rpx;
+  margin-top:30rpx;
+  margin-bottom:20rpx;
+  
+}
+.strip{
+height:130rpx;
+/* border-top:1rpx solid #e6e6e6; */
+border-bottom:1rpx solid #e6e6e6;
+padding:0 30rpx;
+}
+.txt{
+  color: #4A90E2;
+}
+.icon{
+  height:21rpx;
+  width:12rpx;
+  margin-left:10rpx;
+}
+.btn{
+  height:300rpx;
+  background-color:#f0f0f0;
+  }
+  .btn view{
+    height:90rpx;
+    width:670rpx;
+  }
+  .btn1{
+     background-color:#000;
+     color:#fff;
+     margin:30rpx 0;
+  }
+.btn2{
+     background-color:#fff;
+     border:1rpx solid #000;
+  }

@@ -1,0 +1,37 @@
+<!--pages/star/star.wxml-->
+<view class="container">
+  <scroll-view scroll-x="true" class="tab-h" scroll-left="{{scrollLeft}}">
+    <view class="tab-item {{currentTab==0?'active':''}}" data-current="0" bindtap="swichNav1">全部</view>
+    <view class="tab-item {{currentTab==1?'active':''}}" data-current="1" bindtap="swichNav2">星标</view>
+  </scroll-view>
+  <!-- 全部作品 -->
+  <view class='all' hidden="{{show}}">
+    <block wx:for="{{information}}" wx:key="key">
+      <view class='opus'>
+        <image class='bgpic'></image>
+        <view>{{item.worksTitle}}</view>
+        <image class='icon' src='/image/a/icon_20_12.png'></image>
+      </view>
+      <view class='gap'></view>
+    </block>
+  </view>
+  <!-- 全部对应的按钮 -->
+  <view class='col jz btn' hidden="{{operation1}}">
+    <view class='jz btn1' catchtap="goreleaseTap">新增1</view>
+    <view class='jz btn2' catchtap="edit1Tap">编辑1</view>
+  </view>
+  <!-- 星标作品 -->
+  <view class='all' hidden="{{hide}}">
+    <view class='opus'>
+      <image class='bgpic'></image>
+      <view>星标作品</view>
+      <image class='icon' src='/image/a/icon_20_12.png'></image>
+    </view>
+    <view class='gap'></view>
+  </view>
+  <!-- 星标作品对应的按钮 -->
+  <view class='col jz btn' hidden="{{operation2}}">
+    <view class='jz btn1' catchtap="goreleaseTap">新增2</view>
+    <view class='jz btn2' catchtap="edit2Tap">编辑2</view>
+  </view>
+</view>

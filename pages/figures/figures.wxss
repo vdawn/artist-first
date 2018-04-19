@@ -1,0 +1,32 @@
+/* pages/figures/figures.wxss */
+
+.container {
+  border-top: 1rpx solid #f0f0f0;
+}
+
+.father {
+  height: 148rpx;
+  margin: 0 40rpx;
+  border-bottom: 1rpx solid #f0f0f0;
+  
+}
+
+image {
+  height: 68rpx;
+  width: 68rpx;
+  border-radius: 50%;
+  margin-right: 20rpx;
+  border: 1px solid red;
+}
+
+.txt1 {
+  font-size: 30rpx;
+  line-height: 30rpx;
+  margin-bottom:17rpx;
+}
+
+.txt2 {
+  font-size: 26rpx;
+  color: #9b9b9b;
+  line-height: 26rpx;
+}

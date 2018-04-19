@@ -1,0 +1,40 @@
+<!--pages/sharefriend/sharefriend.wxml-->
+<view class='pr container'>
+  <view class='pr save'>
+    <view class='pr pic'>
+      <image src="/image/a/11111111.png"></image>
+      <view class="opus">特殊视角</view>
+      <view class='details'>
+        <view class='introduction'>刘益谦/
+          <text>保利秋拍/</text>
+          <text>10000万元/</text>
+          <text>2014.9</text>
+        </view>
+        <view class='honor'>2017年7月或北京夏季展2017年7月或北京夏季展2017年7月或北京夏季展2017年7月或北京夏季展</view>
+      </view>
+    </view>
+
+
+     <view class='row sp bot-father'>
+           <image class="ewm"></image>
+           <view class='txt'>
+              <view>识别小程序码</view>
+              <view>进入<text class='theme'>达芬奇的艺术馆</text>欣赏更多内容</view>
+           </view>
+      </view>
+  </view>
+
+  <view class='footer'>
+    <view class='jz'>点击下方按钮，将图片保存在相册,然后在朋友圈发布</view>
+    <button class="btn">保存图片</button>
+  </view>
+
+
+  <view class=' alert'>
+    <view class='block'>
+      <text class='cz success'>保存成功</text>
+      <text class='cz prompt'>您已分享图片保存在相册中，请前往朋友圈分享，点击确定按钮返回。</text>
+      <text class='cz confirm'>确定</text>
+    </view>
+  </view>
+</view>

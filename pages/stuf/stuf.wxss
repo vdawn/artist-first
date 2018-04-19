@@ -1,0 +1,154 @@
+.container {
+  height: 100%;
+}
+
+.card {
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+}
+
+.bgpic {
+  height: 100%;
+  width: 100%;
+}
+
+.name {
+  position: absolute;
+  top: 30%;
+  right: 0;
+  width: 120rpx;
+  font-size: 80rpx;
+}
+
+.edit {
+  position: absolute;
+  bottom: 30rpx;
+  right: 30rpx;
+}
+
+.arrow {
+  position: absolute;
+  bottom: 80.6rpx;
+  left: 50%;
+  margin-left: -19rpx;
+  height: 40rpx;
+  width: 38rpx;
+}
+
+.information {
+  width: 100%;
+}
+
+.head {
+  height: 254rpx;
+}
+
+.headpic {
+  height: 174rpx;
+  width: 174rpx;
+  border-radius: 50%;
+}
+
+.information .tip {
+  height: 120rpx;
+  width: 218rpx;
+  position: absolute;
+  top: 65rpx;
+  right: 39rpx;
+}
+
+.tip image {
+  height: 120rpx;
+  width: 218rpx;
+}
+
+.input1,.input2{
+   padding-left:30rpx; 
+  height: 80rpx;
+  color: #555;
+  margin-top: 20rpx;
+  background-color: #f2f2f2;
+}
+
+.input1{
+  width: 270rpx;
+}
+.input2{
+  width: 650rpx;
+  /* margin-bottom: 40rpx; */
+}
+
+.save1 {
+  height: 80rpx;
+  width: 670rpx;
+  background-color: #000;
+  color: #fff;
+  margin: 20rpx 0 30rpx 0;
+}
+
+.tape {
+  width: 100%;
+  border-bottom: 20rpx solid #f0f0f0;
+}
+
+.tape view {
+  height: 183rpx;
+}
+
+.icon {
+  height: 71rpx;
+  width: 71rpx;
+  margin: 0 30rpx;
+}
+
+.tofans {
+  color: #4a90e2;
+}
+
+.info {
+  padding: 40rpx;
+}
+
+.info .tip {
+   margin:30rpx 0;
+  /* margin: 40rpx 0  30rpx 0; */
+}
+
+.frame {
+  color: #555;
+  background-color: #f2f2f2;
+  margin-bottom: 30rpx;
+}
+
+.frame view:first-child {
+  color: #000;
+  width: 130rpx;
+  height: 80rpx;
+  border-right: 1rpx solid #fff;
+}
+
+.frame input {
+  padding-left: 20rpx;
+  width: 540rpx;
+  height: 80rpx;
+}
+.inputs{
+  margin-bottom:20rpx;
+}
+.frame .validate {
+  position: absolute;
+  right: 0rpx;
+  top: 21rpx;
+  width: 180rpx;
+  color: #4a90e2;
+  z-index:99;
+}
+
+.save2 {
+  height: 80rpx;
+  width: 670rpx;
+  background-color: #000;
+  color: #fff;
+}

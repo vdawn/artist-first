@@ -1,0 +1,90 @@
+/* pages/shareme/shareme.wxss */
+page{
+  height:100%;
+}
+.container{
+  height:100%;
+}
+.all{
+  height:100%;
+}
+.save{
+  height:100%;
+}
+
+.top-father {
+  height: 100%;
+  overflow: hidden;
+}
+
+.top-father image {
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+
+.top-father .details {
+  position: absolute;
+  bottom: 40rpx;
+  font-size: 26rpx;
+  line-height: 40rpx;
+  color: #fff;
+  padding: 0 30rpx;
+}
+
+.top-father .opus {
+  position: absolute;
+  top: 40rpx;
+  left: 30rpx;
+  height: 30rpx;
+  font-size: 30rpx;
+  color: #fff;
+}
+
+.top-father .introduction {
+  margin-bottom: 30rpx;
+}
+
+.pic{
+  height:100%;
+}
+.pic image{
+  width:100%;
+  height:100%;
+}
+.bot-father{
+  width:100%;
+}
+.ewm{
+  height:208rpx;
+  background-color:#2E2C2D;
+  color:#fff;
+}
+.ewm image{
+  height: 127rpx;
+  width:127rpx;
+  border:1px solid red;
+}
+.surprise{
+  font-weight: bold;
+}
+.ewm .distinguish{
+  height: 92rpx;
+  width:500rpx;
+  font-size:26rpx;
+  padding-left:43rpx;
+}
+.distinguish .into{
+line-height:70rpx;
+}
+.footer {
+   margin-top:210rpx; 
+}
+
+.btn {
+  height: 80rpx;
+  line-height:80rpx;
+  font-size:30rpx;
+  color:black;
+  text-align: center;
+}

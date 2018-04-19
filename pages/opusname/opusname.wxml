@@ -1,0 +1,8 @@
+<!--pages/opusname/opusname.wxml-->
+<view class='container'>
+      <input  maxlength='16' bindblur="opusnameInput" value='{{opusname}}'></input> 
+      <view class='cz'>
+       <view class='jz save' catchtap="goreleaseTap">保存</view>
+      </view>
+</view>
+

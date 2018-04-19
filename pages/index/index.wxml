@@ -1,0 +1,21 @@
+<!--pages/index/index.wxml-->
+<import src='../template/tabbar-template/tabbar-template.wxml' />
+<import src='../template/hint-template/hint-template.wxml' />
+<view class="container">
+  <view class='pr all'>
+    <swiper class='swiper' indicator-color="pink" vertical="true" interval="1200">
+      <block wx:for="{{list}}" wx:key="key">
+        <swiper-item class="son" bindtap="gohomepageTap" data-artistid="{{item.artistId}}">
+          <view class='prompt row'>
+            <!-- 提示语template -->
+            <view hidden="{{hide}}" class='head'>
+              <template is='hintTemplate' />
+            </view>
+          </view>
+          <image src='{{item.coverEntity.bgPic}}'></image>
+          <view class='name'>{{item.coverEntity.artistName}}</view>
+        </swiper-item>
+      </block>
+    </swiper>
+  </view>
+</view>

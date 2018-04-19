@@ -1,0 +1,23 @@
+<!--pages/likeme/likeme.wxml-->
+<view class='container'>
+
+       <view class='row sp father'>
+          <image ></image>
+          <view class='col'>
+             <view class='txt1'><text class=''>单迷妹 </text><text class='like'> 喜欢了我的作品</text>[蒙娜丽莎]</view>
+             <text class='txt2'>2018-09-17 09:45</text>
+          </view>
+      </view>
+      
+
+
+
+<view class='row sp father'>
+          <image ></image>
+          <view class='col'>
+             <view class='txt1'><text class=''>单迷妹 </text><text class='like'> 喜欢了我的主页</text></view>
+             <text class='txt2'>2018-09-17 09:45</text>
+          </view>
+      </view>
+</view>
+

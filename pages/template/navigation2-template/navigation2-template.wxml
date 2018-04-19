@@ -1,0 +1,28 @@
+<template name='navTemplate'>
+  <view class='row tabbar'>
+    <view class="sa pr" catchtap="gohomepageTap">
+      <view class='jz frame'>
+        <image src="/image/a/icon_13_1.png"></image>
+      </view>
+      <view class='red'>预览</view>
+    </view>
+    <view class="sa pr" catchtap="goreleaseTap">
+      <view class='jz frame'>
+        <image src="/image/a/icon_6_2.png"></image>
+      </view>
+      <view class='red'>发布作品</view>
+    </view>
+    <view class="sa pr">
+      <view class='jz frame'>
+        <image src="/image/a/icon_6_3.png"></image>
+      </view>
+      <view class='red'>发送给朋友</view>
+    </view>
+    <view class="sa pr">
+      <view class='jz frame'>
+        <image src="/image/a/icon_6_4.png"></image>
+      </view>
+      <view class='red'>生成电子名片</view>
+    </view>
+  </view>
+</template>

@@ -1,0 +1,41 @@
+/* pages/comtme/comtme.wxss */
+
+.container {
+  font-size: 30rpx;
+  color: #555;
+  border-top: 1rpx solid #f0f0f0;
+}
+
+.father {
+  width: 100%;
+  margin-top: 40rpx;
+  padding-bottom: 40rpx;
+  border-bottom: 1rpx solid #f0f0f0;
+}
+
+.father>image {
+  width: 68rpx;
+  height: 68rpx;
+  margin: 0 20rpx;
+  border: 1rpx solid red;
+  border-radius: 50%;
+}
+
+.father>view {
+  width: 612rpx;
+}
+
+.fans {
+  font-weight: bold;
+  color: #000;
+}
+
+.opus {
+  color: #000;
+}
+
+.time {
+  font-size: 26rpx;
+  color: #9b9b9b;
+  margin: 20rpx 0;
+}

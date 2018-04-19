@@ -1,0 +1,24 @@
+<!--pages/mienedit/mienedit.wxml-->
+<view class='container'>
+  <view class='jz frame' catchtap="chooseImageTap">
+    <image src='{{picurl}}'></image>
+  </view>
+  <view class='describe'>
+    <view class='txt'>照片描述</view>
+    <textarea placeholder='请输入' maxlength='500' bindinput="bindTextAreaBlur"></textarea>
+  </view>
+   <view class='cz save' catchtap="saveTap">
+    <view class='txt jz'>保存</view>
+  </view>
+
+   <!-- 作品提示框 -->
+  <view class='col sp prompt' hidden="{{hide}}">
+    <image src='/image/a/icon_20_20.png'></image>
+    <view>请上传照片</view>
+  </view>
+
+  <view class='col sp prompt' hidden="{{hide2}}">
+    <image src='/image/a/icon_20_20.png'></image>
+    <view>请添加描述</view>
+  </view>
+</view>

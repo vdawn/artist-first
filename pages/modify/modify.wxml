@@ -1,0 +1,77 @@
+<!--pages/modify/modify.wxml-->
+<view class='container'>
+<!-- 添加图片 -->
+  <view class='row jz frame'>
+    <view class='pr opus'>
+      <image></image>
+      <view class='close'>
+        <image src='/image/a/icon_20_16.png'></image>
+      </view>
+    </view>
+    <view class='col sp add'>
+      <view>+</view>
+      <text>继续添加</text>
+    </view>
+  </view>
+  <view class='gap'></view>
+
+  <view class='bt sp strip'>
+    <view>作品名
+      <text class='txt'>(必填)</text>
+    </view>
+    <view>作品名必须填写，请输入
+       <image class='icon' src="/image/a/icon_8.png"></image> 
+    </view>
+  </view>
+  <view class='gap'></view>
+
+  <view class='bt sp strip'>
+    <view>添加音频
+    </view>
+    <view>00:56
+       <image class='icon' src="/image/a/icon_8.png"></image> 
+    </view>
+  </view>
+<view class='gap'></view>
+<view class='bt sp strip'>
+    <view>填写收藏记录
+    </view>
+    <view>
+       <image class='icon' src="/image/a/icon_8.png"></image> 
+    </view>
+  </view>
+  <view class='bt sp strip'>
+    <view>填写获奖记录
+    </view>
+    <view>
+       <image class='icon' src="/image/a/icon_8.png"></image> 
+    </view>
+  </view>
+  <view class='bt sp strip'>
+    <view>馆藏
+    </view>
+    <view>已装裱
+       <image class='icon' src="/image/a/icon_8.png"></image> 
+    </view>
+  </view>
+  <view class='bt sp strip'>
+    <view>尺寸
+    </view>
+    <view>啦啦啦
+       <image class='icon' src="/image/a/icon_8.png"></image> 
+    </view>
+  </view>
+  <view class='bt sp strip'>
+    <view>创造年份
+    </view>
+    <view>1969年
+       <image class='icon' src="/image/a/icon_8.png"></image> 
+    </view>
+  </view>
+
+
+  <view class='sp col btn'>
+   <view class='jz btn1'>保存</view>
+    <view class='jz btn2'>删除</view>
+  </view>
+</view>

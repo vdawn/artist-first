@@ -1,0 +1,54 @@
+/* pages/previewcomment/previewcomment.wxss */
+.container {
+  border-top: 1px solid #f0f0f0;
+}
+image{
+  width:0rpx;
+  height:0rpx;
+}
+.title{
+height:120rpx;
+line-height:120rpx;
+padding:0 40rpx;
+font-size:40rpx;
+}
+.title text{
+  font-size:32rpx;
+  color:#555;
+}
+.opus image {
+   width: 100%; 
+   border:1rpx solid red;
+}
+
+.opus view {
+  height: 24rpx;
+  width: 90%;
+  font-size: 24rpx;
+  color:#9b9b9b;
+}
+.content{
+  padding:10rpx 40rpx;
+  margin-bottom:60rpx;
+}
+.content text{
+  font-size:30rpx;
+}
+.bottom{
+  width:100%;
+  position: fixed;
+  bottom:0;
+}
+.btn view{
+  width:670rpx;
+  height:80rpx;
+}
+.btn1{
+  background-color:#000;
+  border:1rpx solid #000;
+  color:#fff;
+}
+.btn2{
+  border:1rpx solid #000;
+  margin:30rpx 0 60rpx 0;
+}

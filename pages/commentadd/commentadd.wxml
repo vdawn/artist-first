@@ -1,0 +1,30 @@
+<!--pages/commentadd/commentadd.wxml-->
+<view class='container'>
+  <view class='jz add' bindtap="gocommenteditTap">
+    <view class='jz'>+ 添加新的名家点评</view>
+  </view>
+  <view class='all' wx:for="{{commentadd}}" wx:key="key" bindtap="gopreview" data-famousRemarkid="{{item.famousRemarkId}}">
+    <!-- 标题 -->
+    <view class='jz block'>
+      <view class='frame'>
+        <view class='title'>{{item.title}}</view>
+        <view class='jz icon'>
+          <image src='/image/a/icon_8.png'></image>
+        </view>
+      </view>
+    </view>
+    <!-- 作品图片 -->
+    <!-- <view class='col jz opus'>
+      <image src='{{item.picUrl}}' mode=""></image>
+    </view> -->
+
+
+    <!-- 内容 -->
+    <view class=' txt'>
+      <view class='el content'>
+        <text>{{item.content}}</text>
+      </view>
+    </view>
+    <view class='gap'></view>
+  </view>
+</view>

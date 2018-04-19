@@ -1,0 +1,41 @@
+<!--pages/remind/remind.wxml-->
+<view class='container'>
+  <view class='sp set'>设置消息提醒频率 </view>
+    <!-- one -->
+  <view class='item'>
+    <view class='bt sp strip bb'>
+      <text>我的作品被评论</text>
+      <view>及时提醒
+        <image src="/image/a/icon_8.png"></image>
+      </view>
+    </view>
+  </view>
+   <view class='item'>
+    <view class='bt sp strip bb'>
+      <text>我的作品被喜欢</text>
+      <view>及时提醒
+        <image src="/image/a/icon_8.png"></image>
+      </view>
+    </view>
+  </view>
+   <view class='item'>
+    <view class='bt sp strip'>
+      <text>我的主页被喜欢</text>
+      <view>及时提醒
+        <image src="/image/a/icon_8.png"></image>
+      </view>
+    </view>
+  </view>
+  <view class='gap'></view>
+ <view class='item'>
+    <view class='bt sp strip'>
+      <text>有人回复了我的评论</text>
+      <view>及时提醒
+        <image src="/image/a/icon_8.png"></image>
+      </view>
+    </view>
+  </view>
+
+
+
+</view>

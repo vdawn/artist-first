@@ -1,0 +1,27 @@
+/* pages/verification/verification.wxss */
+.container{
+font-size:34rpx;
+color:#555;
+}
+.block1{
+  margin-top:30rpx;
+  height:100rpx;
+  width:670rpx;
+  padding-left:23rpx;
+ background: #F2F2F2;
+}
+input{
+  width:329rpx;
+  font-size:35rpx;
+  color:#000;
+  padding-left:20rpx;
+   margin-right:10rpx;
+}
+.send{
+  color:blue;
+}
+
+.save{
+  background: #000;
+  color:#fff;
+}

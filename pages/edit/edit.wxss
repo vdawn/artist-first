@@ -1,0 +1,22 @@
+/* pages/edit/edit.wxss */
+.container{
+    border-top:1rpx solid #f0f0f0;
+}
+.strip{
+  padding:30rpx;
+   border-bottom:1rpx solid #f0f0f0;
+}
+.strip image{
+   height: 150rpx;
+  width: 150rpx;
+  border-radius: 50%;
+}
+.end{
+display: flex;
+  justify-content:flex-end;
+  width: 140px;
+}
+
+.text_slice{
+  /* width: 180px; */
+}

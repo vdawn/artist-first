@@ -1,0 +1,8 @@
+<!--pages/modify2/modify2.wxml-->
+<view class='container'>
+      <input  maxlength='40' bindinput="signatureInput" value='{{signature}}'></input> 
+      <view class='cz'>
+       <view class='jz save' catchtap="goeditTap">保存</view>
+      </view>
+</view>
+

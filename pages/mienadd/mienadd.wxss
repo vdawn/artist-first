@@ -1,0 +1,41 @@
+/* pages/mienadd/mienadd.wxss */
+.frame {
+  height: 170rpx;
+  border-top: 1px solid #f0f0f0;
+}
+
+.dotted {
+  height: 110rpx;
+   width:710rpx;
+   border: 1px dotted #81C28D; 
+}
+.dotted image{
+  width:19rpx;
+  height:19rpx;
+}
+.dotted view{
+  height:30rpx;
+  line-height:30rpx;
+  color:#81C28D;
+  font-size:30rpx;
+}
+.all{
+  padding:20rpx;
+}
+.all .pic{
+  height:436rpx;
+  margin:20rpx 0;
+}
+.pic image{
+  height:100%;
+  width:100%;
+}
+.all .txt{
+  width:100%;
+  font-size:28rpx;
+  line-height:46rpx;
+    -webkit-line-clamp: 5; 
+}
+.gap{
+  margin-top:10rpx;
+}

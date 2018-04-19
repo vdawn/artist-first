@@ -1,0 +1,92 @@
+/* pages/commentedit/commentedit.wxss */
+
+.container {
+  height: 100%;
+  border-top: 1rpx solid #f0f0f0;
+  background-color: #c6c6c6;
+}
+
+.title {
+  height: 156rpx;
+  padding: 30rpx;
+  background-color: #fff;
+}
+
+.title .txt {
+  margin-bottom: 30rpx;
+}
+
+.title input {
+  border-bottom: 1rpx solid #f0f0f0;
+  padding-bottom: 40rpx;
+}
+
+.comment {
+  padding: 30rpx;
+  background-color: #fff;
+}
+
+.comment .txt {
+  margin-bottom: 30rpx;
+}
+
+.comment textarea {
+  height: 500rpx;
+  width: 100%;
+  margin-bottom: 30rpx;
+  /* border:1rpx solid #f0f0f0; */
+}
+
+.camera {
+  height: 120rpx;
+  width: 180rpx;
+  /* border: 1rpx dotted #c6c6c6; */
+}
+/* 
+.camera image {
+  height: 26rpx;
+  width: 32rpx;
+}
+
+.camera view {
+  font-size: 28rpx;
+  margin-top: 20rpx;
+  color: #c6c6c6;
+} */
+.camera image {
+  height: 100%;
+  width:100%;
+}
+.save .txt {
+  height: 80rpx;
+  width: 670rpx;
+  background-color: #000;
+  /* opacity: .2; */
+  color: #fff;
+  margin-top: 40rpx;
+}
+.prompt {
+  width: 520rpx;
+  height: 260rpx;
+  opacity: 0.4;
+  background: #000;
+  border-radius: 8px;
+  position: fixed;
+  left: 50%;
+  margin-left: -260rpx;
+  bottom: 50%;
+}
+
+.prompt image {
+  width: 60rpx;
+  height: 60rpx;
+  margin-top: 54rpx;
+  margin-bottom: 30rpx;
+}
+
+.prompt view {
+  font-size: 40rpx;
+  color: #fff;
+  letter-spacing: 0;
+  line-height: 40px;
+}

@@ -1,0 +1,25 @@
+/* pages/size/size.wxss */
+
+.container {
+  font-size: 34rpx;
+  border-top: 1rpx solid #f0f0f0;
+}
+
+.txt {
+  padding: 34rpx 30rpx;
+  border-bottom: 1rpx solid #f0f0f0;
+}
+
+.txt1 {
+  margin-bottom: 20rpx;
+  font-size: 30rpx;
+  color: #828282;
+}
+
+.finish {
+  height: 90rpx;
+  width: 80%;
+  margin-top: 50rpx;
+  color: #fff;
+  background-color: #000;
+}

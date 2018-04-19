@@ -1,0 +1,21 @@
+<!--pages/previewcomment/previewcomment.wxml-->
+<view class="container">
+  <view class='row title'>
+    <text>标题</text>
+  </view>
+   <!-- 作品图片 -->
+    <view class='col jz opus'>
+         <image src="{{previewcomment.picUrl}}" mode="widthFix"></image>  
+    </view>
+    <view class='content'>
+      <text>{{previewcomment.content}}</text>
+    </view> 
+
+
+    <view class='bottom '>
+    <view class='col sp  btn'>
+      <view class='jz btn1' bindtap='gorevise'>编辑</view>
+      <view class='jz btn2'>删除</view>
+    </view>
+  </view>
+</view>

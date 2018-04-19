@@ -1,0 +1,164 @@
+/* pages/details/details.wxss */
+@import "../template/navigation-template/navigation-template.wxss";
+.swiper {
+  height: 540rpx;
+  width: 100%;
+  text-align: center;
+}
+
+swiper-item image {
+  height: 100%;
+  width: 100%;
+}
+
+.describe {
+  height: 236rpx;
+}
+
+.describe .name {
+  font-size: 40rpx;
+  position: absolute;
+  top: 30rpx;
+  left: 30rpx;
+}
+
+.tag {
+  position: absolute;
+  left: 30rpx;
+  top: 100rpx;
+}
+
+.tag1 {
+  margin-bottom: 30rpx;
+}
+
+.tag1 .icon {
+  width: 8rpx;
+  height: 8rpx;
+  background-color: #c6c6c6;
+  margin-right: 22rpx;
+}
+
+.tag1 text {
+  font-size: 28rpx;
+  color: #555;
+}
+
+.voice {
+  height: 183rpx;
+  border: 1px solid blanchedalmond;
+}
+
+.title {
+  height: 90rpx;
+}
+
+.win {
+  height: 90rpx;
+  border-bottom: 1px solid #e6e6e6;
+  margin-left: 30rpx;
+  line-height: 80rpx;
+  font-size: 30rpx;
+}
+
+.record {
+  margin-left: 30rpx;
+  margin-top: 39rpx;
+  font-size: 28rpx;
+   line-height: 46rpx;
+   
+  border-bottom:1rpx solid #e6e6e6;
+}
+
+.strip {
+  margin-bottom: 38rpx;
+  vertical-align: middle;
+  padding-right: 40rpx;
+
+}
+
+.strip .icon {
+  margin-right: 28rpx;
+  padding-top:4rpx;
+}
+
+.icon image {
+  width: 27rpx;
+  height: 27rpx;
+}
+
+.participant .headpic {
+  width: 68rpx;
+  height: 68rpx;
+  border:1rpx solid red;
+  border-radius: 50%;
+  margin-right: 20rpx;
+}
+.participant{
+  padding-right: 20rpx;
+}
+.commentator .name{
+  font-size:28rpx;
+  font-weight: bold;
+}
+.commentator .time{
+  font-size:22rpx;
+  color: #9B9B9B;
+  margin-bottom:17rpx;
+}
+
+.commentator .txt{
+  font-size: 28rpx;
+color: #555555;
+line-height: 50rpx;
+}
+.option{
+  display: flex;
+  justify-content: flex-end;
+  vertical-align: middle;
+  margin-bottom:40rpx;
+}
+.option view{
+ margin-right:60rpx;
+ font-size: 24rpx;
+color: #9B9B9B;
+}
+.option image{
+  width:30rpx;
+  height:30rpx;
+   margin-right:10rpx;
+   margin-top:40rpx;
+   
+}
+.thought{
+  height:100rpx;
+  width:100%;
+}
+.thought image{
+ width:46rpx;
+ height:46rpx;
+  border:1px solid red;
+  border-radius: 50%;
+  margin-left: 20rpx;
+}
+.thought input{
+ width:450rpx;
+ height:30rpx;
+   font-size: 28rpx;
+   color:#9B9B9B;
+   padding-left:40rpx;
+}
+.thought view{
+  position: absolute;
+  right:20rpx;
+ width:100rpx;
+ height:60rpx;
+  background-color: #000;
+  color:#fff;
+  font-size: 30rpx;
+}
+.tabbar{
+  /* position: fixed;
+  left:0;
+  bottom:0; */
+}

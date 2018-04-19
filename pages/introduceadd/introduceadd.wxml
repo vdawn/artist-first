@@ -1,0 +1,22 @@
+<!--pages/introduceadd/introduceadd.wxml-->
+<view class=' container'>
+  <!-- 填写 -->
+  <view class="write" hidden='{{hide}}'>
+    <view class='frame'>
+      <textarea maxlength="500" bindinput="bindTextAreaBlur"></textarea>
+    </view>
+    <view class='cz' catchtap="gostuffTap">
+      <view class="jz save">保存</view>
+    </view>
+  </view>
+  
+  <!-- 展示文本-->
+  <view hidden='{{txthide}}'>
+    <view class='more' >
+      <text>{{intro}}</text>
+    </view>
+    <!-- 编辑 -->
+    <view class='jz btn' bindtap='gointro'>编辑</view>
+  </view>
+
+</view>

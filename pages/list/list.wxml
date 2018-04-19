@@ -1,0 +1,37 @@
+<!--pages/list/list.wxml-->
+<import src='../template/tabbar-template/tabbar-template.wxml' />
+<import src='../template/hint-template/hint-template.wxml' />
+<view class="container">
+  <view class='pr all'>
+    <swiper class='swiper' indicator-color="pink" vertical="true" interval="1200">
+      <block>
+        <swiper-item class="son">
+          <view class='prompt'>
+            <!-- 提示语template -->
+            <template is='hintTemplate' />
+          </view>
+
+          <image src="/image/a/11111111.png"></image>
+          <view class='name'>
+
+          </view>
+
+        </swiper-item>
+      </block>
+
+      <block>
+        <swiper-item class="son1">
+          <image src="/image/a/11111111.png"></image>
+        </swiper-item>
+      </block>
+      <block>
+        <swiper-item class="son2">
+          <image src="/image/a/11111111.png"></image>
+        </swiper-item>
+      </block>
+    </swiper>
+
+    <!-- 底部tabbar template-->
+    <template is='tabbarTemplate' />
+  </view>
+</view>

@@ -1,0 +1,291 @@
+/* pages/stuff/stuff.wxss */
+@import "../template/navigation2-template/navigation2-template.wxss";
+
+.container {
+  height: 100%;
+  /* margin-bottom:-100rpx; */
+}
+
+.card {
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+}
+
+.bgpic {
+  height: 100%;
+  width: 100%;
+}
+
+.card .name {
+  position: absolute;
+  top: 32%;
+  right: 0;
+  width: 120rpx;
+  font-size: 80rpx;
+}
+
+.edit {
+  position: absolute;
+  bottom: 130rpx;
+  right: 30rpx;
+}
+
+.arrow {
+  position: absolute;
+  bottom: 200rpx;
+  left: 50%;
+  margin-left: -19rpx;
+  height: 40rpx;
+  width: 38rpx;
+}
+
+.information {
+  width: 100%;
+}
+
+.head {
+  height: 254rpx;
+}
+
+.headpic {
+  height: 174rpx;
+  width: 174rpx;
+  border-radius: 50%;
+}
+
+.redpencil {
+  border: 1rpx solid #e6e6e6;
+  padding: 5rpx;
+  font-size: 28rpx;
+  color: #db5354;
+  margin-bottom: 40rpx;
+}
+
+.autograph {
+  font-size: 30rpx;
+  padding: 35rpx 50rpx;
+}
+
+.iconedit {
+  height: 16px;
+  width: 30rpx;
+  margin-right: 15rpx;
+}
+
+.information .tip {
+  height: 120rpx;
+  width: 218rpx;
+  position: absolute;
+  top: 65rpx;
+  right: 39rpx;
+}
+
+.tip image {
+  height: 120rpx;
+  width: 218rpx;
+}
+
+.input1, .input2 {
+  padding-left: 30rpx;
+  height: 80rpx;
+  color: #555;
+  margin-top: 20rpx;
+  background-color: #f2f2f2;
+}
+
+.input1 {
+  width: 270rpx;
+}
+
+.input2 {
+  width: 650rpx;
+}
+
+.save1 {
+  height: 80rpx;
+  width: 670rpx;
+  background-color: #000;
+  color: #fff;
+  margin: 20rpx 0 30rpx 0;
+}
+
+.tape {
+  width: 100%;
+  border-bottom: 20rpx solid #f0f0f0;
+}
+
+.tape view {
+  height: 183rpx;
+}
+
+.icon {
+  height: 71rpx;
+  width: 71rpx;
+  margin: 0 30rpx;
+}
+
+.tofans {
+  color: #4a90e2;
+}
+
+.info {
+  padding: 40rpx;
+}
+
+.info .tip {
+  margin: 30rpx 0;
+}
+
+.father .frame {
+  color: #555;
+  background-color: #f2f2f2;
+  margin-bottom: 30rpx;
+}
+
+.frame view:first-child {
+  color: #000;
+  width: 130rpx;
+  height: 80rpx;
+  border-right: 1rpx solid #fff;
+}
+
+.frame input {
+  padding-left: 20rpx;
+  width: 540rpx;
+  height: 80rpx;
+}
+
+.frame .validate {
+  position: absolute;
+  right: 0rpx;
+  top: 21rpx;
+  width: 180rpx;
+  color: #4a90e2;
+}
+
+.save2 {
+  height: 80rpx;
+  width: 670rpx;
+  background-color: #000;
+  color: #fff;
+}
+
+.tab {
+  height: 206rpx;
+  border-bottom: 1rpx solid #f0f0f0;
+}
+
+.neighborhood {
+  width: 20%;
+  height: 206rpx;
+}
+
+.father .frame {
+  width: 70rpx;
+  height: 70rpx;
+  background-color: #ededed;
+  border-radius: 50%;
+  margin: 0 auto;
+}
+
+.frame image {
+  width: 23rpx;
+  height: 31rpx;
+}
+
+.father view {
+  margin-top: 30rpx;
+  color: #555;
+  font-size: 26rpx;
+  text-align: center;
+}
+
+.tip {
+  height: 138rpx;
+  margin-left: 143rpx;
+}
+
+.tip image {
+  height: 138rpx;
+  width: 400rpx;
+}
+
+.works {
+   margin-bottom: 460rpx; 
+}
+
+.draw {
+  height: 440rpx;
+  width: 100%;
+}
+
+.draw .box {
+  height: 440rpx;
+  width: 100%;
+}
+
+.draw text {
+  font-size: 30rpx;
+  position: absolute;
+  left: 60rpx;
+  bottom: 40rpx;
+}
+
+.box image {
+  height: 100%;
+  width: 100%;
+}
+
+.pload {
+  margin-bottom: 140rpx;
+}
+
+.pload view {
+  height: 110rpx;
+  width: 100%;
+  margin: 0 auto;
+  border: 1rpx dotted #db5354;
+  color: #db5354;
+}
+
+.draw {
+  height: 440rpx;
+  width: 100%;
+}
+
+.draw .box {
+  height: 440rpx;
+  width: 100%;
+}
+
+.box image {
+  height: 100%;
+  width: 100%;
+}
+
+.draw text {
+  font-size: 30rpx;
+  position: absolute;
+  left: 60rpx;
+  bottom: 40rpx;
+}
+
+.guide {
+  margin-bottom: 100rpx;
+}
+
+.guide image {
+  height: 200rpx;
+  width: 100%;
+}
+
+.bottom {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100rpx;
+  background-color: #fff;
+}

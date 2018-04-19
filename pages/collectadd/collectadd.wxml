@@ -1,0 +1,28 @@
+<!--pages/collectadd/collectadd.wxml-->
+<view class='container'>
+  <view class='all'>
+    <view class='col txt'>
+      <text class="txt1">藏家</text>
+      <input placeholder='请输入' maxlength = "20" placeholder-style='color:#C6C6C6' bindblur="collectorsInput" value="{{collectors}}"></input>
+    </view>
+    <view class='col txt'>
+      <text class="txt1">交易机构</text>
+      <input placeholder='请输入' maxlength = "20" placeholder-style='color:#C6C6C6' bindblur="institutionInput" value="{{institution}}"></input>
+    </view>
+    <view class='col txt'>
+      <text class="txt1">价格</text>
+      <input placeholder='请输入金额' maxlength = "9"  type="number" placeholder-style='color:#C6C6C6' bindblur="priceInput" value="{{price}}"></input>
+      <view class='occupy' catchtap="chooseMoneyTap">{{unit}}</view>
+      <image class='arrows' src="/image/a/icon_8.png"></image>
+    </view>
+     <view class='col txt'>
+      <text class="txt1">日期</text>
+      <input placeholder='请填写日期 如:2008/01/25' maxlength = "20" placeholder-style='color:#C6C6C6' bindblur="dataInput" value="{{date1}}"></input>
+      <!-- <view class='occupy'></view>
+      <image class='arrows' src="/image/a/icon_8.png"></image> -->
+    </view>
+  </view>
+  <view class='jz'>
+    <view class='jz finish' catchtap="goreleaseTap">填写完成</view>
+  </view>
+</view>

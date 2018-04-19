@@ -1,0 +1,94 @@
+<!--pages/release/release.wxml-->
+<view class='container'>
+  <view class='gap'></view>
+  <!-- 上传作品 -->
+  <view class='bt uploadpic'>
+    <view class='upload'>
+      <!-- 主图 -->
+      <view class="show">
+        <image src='{{main}}' mode="aspectFill" catchtap="chooseImageTap"></image>
+      </view>
+      
+      <!-- 附图列表 -->
+      <view class="pr other"  wx:for="{{imgs}}" wx:key="*this">
+      <image class="othershow" src="{{item}}" data-index="{{index}}" mode="aspectFill" bindtap="previewImg"></image>
+      <!-- 预览图片 -->
+        <!-- <image class="othershow" src="{{item}}" data-index="{{index}}" mode="aspectFill" bindtap="previewImg"></image> -->
+        <!-- 删除 -->
+        <image class="delete" src='/image/a/icon_20_16.png' data-index="{{index}}" catchtap="deleteImg"></image>
+      </view>
+      <!-- <image src="/image/a/666.png" class="show" catchtap="chooseImagesTap" bindtap="chooseImg"></image> -->
+      <!-- 选图片 -->
+      <image src="/image/a/666.png" class="show"  bindtap="chooseImg" hidden="{{pichide}}"></image>
+    </view>
+  </view>
+
+
+  <view class='gap'></view>
+  <!-- 中间三块 -->
+  <view class="Whole Whole1">
+    <view class="strip" catchtap="goopusnameTap">
+      <view class='title'>作品名
+        <text>(必填)</text>
+      </view>
+      <view class='occupy'>
+        <text class=' text_slice'>{{opusname}}</text>
+      </view>
+      <image class='arrows' src="/image/a/icon_8.png"></image>
+    </view>
+    <view class='gap'></view>
+    <view class="strip">
+      <view class='title'>添加音乐</view>
+      <text class='occupy'>50:40</text>
+      <image class='arrows' src="/image/a/icon_8.png"></image>
+    </view>
+    <view class='gap'></view>
+    <view class="strip" catchtap="gocollectaddTap">
+      <view class='title'>填写收藏记录</view>
+      <image class='arrows' src="/image/a/icon_8.png"></image>
+    </view>
+    <view class="strip" catchtap="goawardaddTap">
+      <view class='title'>填写获奖记录</view>
+      <image class='arrows' src="/image/a/icon_8.png"></image>
+    </view>
+    <view class="strip" catchtap="goenshrineTap">
+      <view class='title'>馆藏</view>
+      <view class='occupy'>
+        <text class=' text_slice'>{{enshrine}}</text>
+      </view>
+      <image class='arrows' src="/image/a/icon_8.png"></image>
+    </view>
+    <view class="strip" catchtap="gosizeTap">
+      <view class='title'>尺寸</view>
+      <text class='occupy'></text>
+      <image class='arrows' src="/image/a/icon_8.png"></image>
+    </view>
+    <view class="strip">
+      <view class='title'>创作年份</view>
+      <picker mode="date" value="{{year}}" start="1960" end="2018" fields="year" bindchange="bindYearChange">
+        <view class="occupy">
+          {{year}}
+        </view>
+      </picker>
+      <!-- <text class='occupy'>{{year}}</text> -->
+      <image class='arrows' src="/image/a/icon_8.png"></image>
+    </view>
+  </view>
+  <view class='jz release'>
+    <view class='jz txt' catchtap="gostarTap">发布</view>
+  </view>
+
+
+  <!-- 作品提示框 -->
+  <view class='col sp prompt' hidden="{{hide}}">
+    <image src='/image/a/icon_20_20.png'></image>
+    <view>请填写作品名</view>
+  </view>
+
+  <view class='col sp prompt' hidden="{{hide2}}">
+     <image src='/image/a/icon_20_20.png'></image>
+    <view>请上传一张作品主图</view>
+  </view>
+
+  
+</view>

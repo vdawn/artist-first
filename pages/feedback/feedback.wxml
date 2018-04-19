@@ -1,0 +1,11 @@
+<!--pages/feedback/feedback.wxml-->
+<view class='container'>
+  <view class='sp opinion'>您的宝贵意见</view>
+  <textarea  placeholder='您在使用过程中遇到什么问题,或者有任何建议,请在这里填写' placeholder-style="color: #C6C6C6;" maxlength='-1'/>
+  <view class='sp prompt'>请留下您的微信/手机号,方便我们联系您:</view>
+  <input placeholder='请填写您的微信号或手机号' placeholder-style="color: #C6C6C6;"></input>
+
+  <view class='bottom'>
+    <view class=' jz submit'>提交</view>
+  </view>
+</view>

@@ -1,0 +1,108 @@
+<!--pages/homepage/homepage.wxml-->
+<import src='../template/hint-template/hint-template.wxml' />
+<import src='../template/navigation-template/navigation-template.wxml' />
+
+<view class="container">
+  <block>
+    <!-- 名片 -->
+    <view class='pr card'>
+      <view class='prompt'>
+        <!-- 提示语template -->
+        <view hidden="{{hide}}" class='head'>
+          <template is='hintTemplate' />
+        </view>
+      </view>
+      <view class="pr top">
+        <image class='img' src='{{homedetails.coverEntity.bgPic}}'></image>
+        <view class='pr more'>
+          <view class="row show">
+            <text class='one'>上海海派玉雕文化协会副会长</text>
+            <text class='two'>海派玉雕特级大师</text>
+            <text class='three'>玉雕兽王</text>
+          </view>
+        </view>
+      </view>
+      <view class='peng'>黄罕勇</view>
+      <image class='arrow' src='/image/a/icon_3.png'></image>
+    </view>
+    <!-- 详细分解 -->
+    <view class='details'>
+      <view class="pr brief">
+        <image class='headpic' src="{{homedetails.userEntity.avatar}}"></image>
+        <view class='jz name'>
+          {{homedetails.userEntity.nickName}}{{homedetails.artistId}}
+        </view>
+        <view class='jz introduce'>
+          {{homedetails.userEntity.signature}}
+        </view>
+      </view>
+      <view class='gap'></view>
+      <view class='voice'>
+      </view>
+      <view class='gap'></view>
+      <!-- 五个导航 -->
+      <view class='row tab'>
+        <view class='jz neighborhood' catchtap="gointroduceTap" data-intro="{{homedetails.intro}}">
+          <view class='father'>
+            <view class='jz frame'>
+              <image src='/image/a/icon_5_1.png' class='pic '></image>
+            </view>
+            <view>简介</view>
+          </view>
+        </view>
+        <view class='jz neighborhood' catchtap="gocollectionTap" data-artistid="{{homedetails.artistId}}">
+          <view class='father'>
+            <view class='jz frame'>
+              <image src='/image/a/icon_5_2.png' class='pic'></image>
+            </view>
+            <view>收藏记录</view>
+          </view>
+        </view>
+        <view class='jz neighborhood' catchtap="goprizesTap" data-artistid="{{homedetails.artistId}}">
+          <view class='father'>
+            <view class='jz frame'>
+              <image src='/image/a/icon_5_3.png' class='pic'></image>
+            </view>
+            <view>获奖记录</view>
+          </view>
+        </view>
+        <view class='jz neighborhood' catchtap="gocommentTap" data-artistid="{{homedetails.artistId}}">
+          <view class='father'>
+            <view class='jz frame'>
+              <image src='/image/a/icon_5_4.png' class='pic'></image>
+            </view>
+            <view>名家点评</view>
+          </view>
+        </view>
+        <view class='jz neighborhood' catchtap="gomienTap" data-artistid="{{homedetails.artistId}}">
+          <view class='father'>
+            <view class='jz frame'>
+              <image src='/image/a/icon_5_5.png' class='pic'></image>
+            </view>
+            <view>相册</view>
+          </view>
+        </view>
+      </view>
+      
+      <!-- 作品展示 -->
+      <view class='works col' wx:for="{{works}}" wx:key="key" catchtap="godetailsTap" data-worksid="{{item.worksId}}">
+        <view class='pr draw'>
+          <view class='box'>
+            <image src="{{item.picList[0]}}"></image>
+          </view>
+          <text>{{item.worksTitle}}</text>
+        </view>
+        <view class='gap2'></view>
+      </view>
+
+      <!-- 广告 -->
+      <view class="guide" hidden="{{hide}}" catchtap="gocardTap">
+        <image src="/image/a/66.png"></image>
+      </view>
+      <!-- 底部导航 -->
+      <view class='bottom'>
+        <template is='navTemplate' />
+      </view>
+    </view>
+  </block>
+</view>

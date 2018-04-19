@@ -1,0 +1,50 @@
+<!--pages/award/award.wxml-->
+<view class='container'>
+   <view class='jz add'>
+       <text>+ 添加获奖记录</text>
+   </view>
+   <view class='all'>
+       <view class='col txt'>
+         <text class="txt1">奖项</text>
+         <text>“这里是奖项奖项奖项奖项奖项奖项奖项奖项奖项”</text>
+       </view>
+       <view class='col txt'>
+         <text class="txt1">颁奖机构</text>
+         <text>这里是颁奖机构颁奖机构颁奖机构</text>
+       </view>
+       <view class='col txt'>
+         <text class="txt1">日期</text>
+         <text>日期日期日期日期日期日</text>
+       </view>
+       <view class='sp operation'>
+         <image src='/image/a/icon_20_10.png' class='icon1'></image>
+         <text>编辑</text>
+          <image src='/image/a/icon_20_11.png' class='icon2'></image>
+         <text>删除</text>
+       </view>
+   </view>
+   <view class='gap'></view>
+   <view class='all'>
+       <view class='col txt'>
+         <text class="txt1">奖项</text>
+         <text>“这里是奖项奖项奖项奖项奖项奖项奖项奖项奖项”</text>
+       </view>
+       <view class='col txt'>
+         <text class="txt1">颁奖机构</text>
+         <text>这里是颁奖机构颁奖机构颁奖机构</text>
+       </view>
+       <view class='col txt'>
+         <text class="txt1">日期</text>
+         <text>日期日期日期日期日期日</text>
+       </view>
+       <view class='sp operation'>
+         <image src='/image/a/icon_20_10.png' class='icon1'></image>
+         <text>编辑</text>
+          <image src='/image/a/icon_20_11.png' class='icon2'></image>
+         <text>删除</text>
+       </view>
+   </view>
+   <view class='gap'></view>
+
+
+</view>

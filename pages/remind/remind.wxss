@@ -1,0 +1,35 @@
+/* pages/remind/remind.wxss */
+
+page {
+  background-color: #f8f8f8;
+}
+
+.set {
+  height: 77rpx;
+  font-size: 26rpx;
+  color: #555;
+  line-height: 26rpx;
+  padding-left: 30rpx;
+}
+
+.item {
+  background-color: #fff;
+  font-size: 30rpx;
+  line-height: 30rpx;
+}
+
+.strip {
+  height: 130rpx;
+  margin-left: 30rpx;
+  padding-right: 30rpx;
+}
+
+.bb {
+  border-bottom: 1px solid #f0f0f0;
+}
+
+.strip image {
+  width: 12rpx;
+  height: 21rpx;
+  margin-left: 20rpx;
+}

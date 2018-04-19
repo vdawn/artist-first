@@ -1,0 +1,30 @@
+<!--pages/awardadd/awardadd.wxml-->
+<view class='container'>
+  <view class='all'>
+    <view class='col txt'>
+      <text class="txt1">奖项</text>
+      <input placeholder='请输入' maxlength = "20" placeholder-style='color:#C6C6C6' bindblur="prizeInput" value="{{prize}}"></input>
+    </view>
+    <view class='col txt'>
+      <text class="txt1">颁奖机构</text>
+      <input placeholder='请输入' maxlength = "20" placeholder-style='color:#C6C6C6' bindblur="awardsInput" value="{{awards}}"></input>
+    </view>
+    <view class='col txt'>
+      <text class="txt1">日期</text>
+      <input placeholder='请输入' maxlength = "15" placeholder-style='color:#C6C6C6' bindblur="dateInput" value="{{date}}"></input>
+    </view>
+    <!-- <view class='sp operation'>
+      <view>
+        <image src='/image/a/icon_20_8.png' class='icon1'></image>
+        <text>保存</text>
+      </view>
+      <view>
+        <image src='/image/a/icon_20_9.png' class='icon2'></image>
+        <text>取消</text>
+      </view>
+    </view> -->
+  </view>
+  <view class='jz'>
+    <view class='jz finish' catchtap="goreleaseTap">填写完成</view>
+  </view>
+</view>

@@ -1,0 +1,7 @@
+<!--pages/modify1/modify1.wxml-->
+<view class='container'>
+      <input  maxlength='6' bindinput="nickNameInput" value='{{nickName}}'></input> 
+      <view class='cz'>
+       <view class='jz save' catchtap="goeditTap">保存</view>
+      </view>
+</view>

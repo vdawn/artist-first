@@ -1,0 +1,62 @@
+<!--pages/search/search.wxml-->
+<view class='container'>
+  <!-- 搜索 -->
+  <view class='row sp pr search'>
+    <image class='icon' src='/image/b/icon_14_1.png'></image>
+    <input placeholder='东东'></input>
+    <view class='jz determine'>确定</view>
+  </view>
+  <!-- 艺术家 -->
+  <view class='bt title'>
+    <text class='txt'>艺术家</text>
+    <text class='more'>更多艺术家</text>
+  </view>
+  <!-- 展示 -->
+  <view class='author'>
+    <view class='three'>
+      <view class='sp name'>
+        <image></image>
+        <text>作者名字</text>
+      </view>
+      <view class='sp name'>
+        <image></image>
+        <text>作者名字</text>
+      </view>
+      <view class='sp name'>
+        <image></image>
+        <text>作者名字</text>
+      </view>
+    </view>
+    <!-- 下面的控制显示影藏 -->
+    <view>
+      <!-- <view class='sp name'>
+        <image></image>
+        <text>作者名字</text>
+      </view> -->
+    </view>
+  </view>
+
+  <!-- 作品 -->
+  <view class='bt title'>
+    <text class='txt'>作品</text>
+    <text class='more'>更多作品</text>
+  </view>
+  <!-- 展示 -->
+  <view class='author'>
+    <view class='three'>
+      <view class='jz pr pic'>
+        <image></image>
+        <text>牟林童</text>
+      </view>
+      <view class='jz pic'>
+        <image></image>
+        <text></text>
+      </view>
+    </view>
+    <!-- 下面的控制显示影藏 -->
+    <view>
+
+    </view>
+  </view>
+
+</view>

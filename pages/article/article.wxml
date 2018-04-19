@@ -1,0 +1,29 @@
+<!--pages/article/article.wxml-->
+<view class='container'>
+  <view class='pr father'>
+    <image src=''></image>
+    <view class='bt txt'>
+      <text>特殊视角</text>
+      <image src='/image/a/icon_20_18.png'></image>
+    </view>
+  </view>
+  <view class='gap'></view>
+
+<view class='pr father'>
+    <image src=''></image>
+    <view class='bt txt'>
+      <text>特殊视角</text>
+      <image src='/image/a/icon_20_18.png'></image>
+    </view>
+  </view>
+  <view class='gap'></view>
+  <view class='pr father'>
+    <image src=''></image>
+    <view class='bt txt'>
+      <text>特殊视角</text>
+      <image src='/image/a/icon_20_18.png'></image>
+    </view>
+  </view>
+  <view class='gap'></view>
+
+</view>

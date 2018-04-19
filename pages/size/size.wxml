@@ -1,0 +1,16 @@
+<!--pages/size/size.wxml-->
+<view class='container'>
+  <view class='all'>
+    <view class='col txt'>
+      <text class="txt1">高（cm）</text>
+      <input placeholder='请输入' maxlength = "9" type="number" placeholder-style='color:#C6C6C6' bindblur="widthInput" value="{{width}}"></input>
+    </view>
+    <view class='col txt'>
+      <text class="txt1">宽（cm）</text>
+      <input placeholder='请输入' maxlength = "9" type="number" placeholder-style='color:#C6C6C6' bindblur="heightInput" value="{{height}}"></input>
+    </view>
+  </view>
+  <view class='jz'>
+    <view class='jz finish' catchtap="goreleaseTap">完成</view>
+  </view>
+</view>

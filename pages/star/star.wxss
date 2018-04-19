@@ -1,0 +1,107 @@
+/**index.wxss**/
+.container {
+  width: 100%;
+  height: 100%;
+  padding-bottom: 290rpx;
+}
+
+.tab-h {
+  height: 88rpx;
+  width: 100%;
+  box-sizing: border-box;
+  overflow: hidden;
+  line-height: 88rpx;
+  background: #fff;
+  font-size: 16px;
+  white-space: nowrap;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 99;
+  border-top: 1rpx solid #f0f0f0;
+  border-bottom: 1rpx solid #f0f0f0;
+}
+
+.tab-item {
+  display: inline-block;
+  width: 50%;
+  text-align: center;
+}
+
+.tab-item.active {
+  font-weight: bold;
+  position: relative;
+}
+
+.tab-item.active:after {
+  content: "";
+  display: block;
+  height: 8rpx;
+  width: 72rpx;
+  background: #000;
+  position: absolute;
+  bottom: 0;
+  left: 40%;
+  border-radius: 16rpx;
+}
+
+.all {
+  width: 100%;
+  margin-top: 128rpx;
+   padding-bottom: 290rpx;
+}
+
+.opus {
+  position: relative;
+  width: 100%;
+  display: flex;
+  flex-grow: row no-wrap;
+  box-sizing: border-box;
+  height: 460rpx;
+}
+
+.bgpic {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 460rpx;
+  background-color: red;
+  z-index: -1;
+}
+
+.opus view {
+  position: absolute;
+  bottom: 40rpx;
+  left: 60rpx;
+  font-size: 34rpx;
+  color: #fff;
+}
+
+.icon {
+  position: absolute;
+  bottom: 40rpx;
+  right: 60rpx;
+  width: 30rpx;
+  height: 30rpx;
+}
+.btn{
+  position: fixed;
+  bottom:0;
+  left:0;
+  width: 100%;
+  height: 290rpx;
+  background-color: #fff;
+}
+.btn view{
+  width:670rpx;
+  height:80rpx;
+}
+.btn1{
+  background-color: #000;
+  color:#fff;
+  margin-bottom:30rpx;
+}
+.btn2{
+  border:1px solid #000;
+}

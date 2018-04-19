@@ -1,0 +1,50 @@
+<!--pages/sharecomments/sharecomments.wxml-->
+<view class="container">
+  <view class='all'>
+    <view class='save'>
+      <!-- 头像及评论 -->
+      <view class='jz col head'>
+        <image class='headpic'></image>
+        <text class='name'>张三丰</text>
+        <view class='time'>点评于
+          <text class='time1'>2017-12-09</text>
+          <text class='time2'>16:59</text>
+        </view>
+      </view>
+      <view class='comment'>
+        <text>如果你无法简洁的表达你的想法,那只说明你还不够了解它</text>
+      </view>
+
+
+      <!-- 作品及二维码 -->
+      <view class='pr top-father'>
+        <view class="pic">
+          <image src='/image/a/11111111.png'></image>
+        </view>
+        <view class="opus">特殊视角</view>
+        <view class='details'>
+          <view class='introduction'>刘益谦/
+            <text>保利秋拍/</text>
+            <text>10000万元/</text>
+            <text>2014.9</text>
+          </view>
+          <view class='honor'>2017年7月或北京夏季展2017年7月或北京夏季展2017年7月或北京夏季展2017年7月或北京夏季展</view>
+        </view>
+      </view>
+
+      <view class='row sp bot-father'>
+           <image class="ewm"></image>
+           <view class='txt'>
+              <view>识别小程序码</view>
+              <view>进入<text class='theme'>达芬奇的艺术馆</text>欣赏更多内容</view>
+           </view>
+      </view>
+    </view>
+
+
+
+    <view class='footer'>
+      <view class='jz btn'>保存图片</view>
+    </view>
+  </view>
+</view>

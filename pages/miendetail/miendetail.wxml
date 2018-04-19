@@ -1,0 +1,10 @@
+<!--pages/mienadd/mienadd.wxml-->
+<view class='container'>
+  <!-- 图片及文字描述 -->
+  <view class='all'>
+    <view class='pic'>
+      <image src='{{mienadd.pic}}'></image>
+    </view>
+    <view class='txt'>{{mienadd.description}}</view>
+  </view>
+</view>

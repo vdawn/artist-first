@@ -1,0 +1,31 @@
+<template name='navTemplate'>
+  <view class='row tabbar'>
+    <view class="sa pr">
+      <view class='jz frame'>
+        <image src="/image/a/icon_6_1.png"></image>
+      </view>
+      <view class='red'>喜欢</view>
+       <view class='vertical'></view> 
+    </view>
+    <!-- <view class="sa pr" catchtap="goreleaseTap">
+      <view class='jz frame'>
+        <image src="/image/a/icon_6_2.png"></image>
+      </view>
+      <view class='red'>发布作品</view>
+      <view class='vertical'></view>
+    </view> -->
+    <view class="sa pr">
+      <view class='jz frame'>
+        <image src="/image/a/icon_6_3.png"></image>
+      </view>
+      <view class='red'>发送给朋友</view>
+      <view class='vertical'></view>
+    </view>
+    <view class="sa pr">
+      <view class='jz frame'>
+        <image src="/image/a/SHAPE.png"></image>
+      </view>
+      <view class='red'>分享到朋友圈</view>
+    </view>
+  </view>
+</template>

@@ -1,0 +1,192 @@
+/* pages/homepage/homepage.wxss */
+@import "../template/hint-template/hint-template.wxss";
+@import "../template/navigation-template/navigation-template.wxss";
+.container {
+  height: 100%;
+}
+
+.prompt {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 90rpx;
+  z-index: 99;
+}
+
+.card {
+  width: 100%;
+  height: 100%;
+}
+
+.top {
+  width: 100%;
+  height: 100%;
+  z-index: 98;
+}
+
+.top image {
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+
+.more {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.peng {
+  width: 80rpx;
+  height: 200rpx;
+  position: absolute;
+  right: 40rpx;
+  bottom: 50%;
+  margin-top: 100rpx;
+  z-index: 98;
+  color: #fff;
+  font-size: 80rpx;
+}
+
+.show {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.one, .two, .three {
+  width: 22rpx;
+  color: #fff;
+  font-size: 28rpx;
+  letter-spacing: 80rpx;
+  line-height: 30rpx;
+  margin-right: 20rpx;
+}
+
+.one {
+  margin-left: 40rpx;
+}
+
+.arrow {
+  width: 30rpx;
+  height: 33rpx;
+  position: absolute;
+  left: 50%;
+  margin-right: 15rpx;
+  bottom: 80rpx;
+  z-index: 98;
+}
+
+.details {
+  width: 100%;
+}
+
+.brief {
+  width: 100%;
+  height: 438rpx;
+}
+
+.headpic {
+  width: 174rpx;
+  height: 174rpx;
+  position: absolute;
+  top: 60rpx;
+  left: 288rpx;
+  border-radius: 50%;
+}
+
+.name, .introduce {
+  width: 100%;
+  height: 36rpx;
+  position: absolute;
+  left: 0;
+}
+
+.name {
+  top: 274rpx;
+  font-size: 36rpx;
+}
+
+.introduce {
+  top: 350rpx;
+  font-size: 28rpx;
+  color: #555;
+}
+
+.voice {
+  height: 183rpx;
+  border: 1px solid pink;
+}
+
+.tab {
+  height: 206rpx;
+}
+
+.neighborhood {
+  width: 20%;
+  height: 100%;
+}
+
+.father .frame {
+  width: 70rpx;
+  height: 70rpx;
+  background-color: #ededed;
+  border-radius: 50%;
+  margin: 0 auto;
+}
+.frame .pic {
+  width: 28rpx;
+  height: 31rpx;
+}
+/* .frame image {
+  width: 23rpx;
+  height: 31rpx;
+} */
+
+.father view {
+  margin-top: 30rpx;
+  color: #555;
+  font-size: 26rpx;
+  text-align: center;
+}
+
+.draw {
+  height: 440rpx;
+  width: 100%;
+}
+
+.draw .box {
+  height: 440rpx;
+  width: 100%;
+}
+
+.box image {
+  height: 100%;
+  width: 100%;
+}
+
+.draw text {
+  font-size: 30rpx;
+  position: absolute;
+  left: 60rpx;
+  bottom: 40rpx;
+}
+.guide{
+  margin-bottom:100rpx;
+}
+.guide image {
+  height: 200rpx;
+  width: 100%;
+}
+.bottom{
+  position: fixed;
+  left:0;
+  bottom:0;
+ width:100%;
+  height:100rpx;
+  background-color: #fff;
+}

@@ -1,0 +1,14 @@
+<template name='tabbarTemplate'>
+  <view class='tabbar'>
+    <view class='pr jz gallery'>
+      <image src="/image/a/icon_1_1.png"></image>
+      <text>艺术馆</text>
+      <view class='vertical'></view>
+    </view>
+
+    <view class='jz my'>
+      <image src="/image/a/icon_2.png"></image>
+      <text>我的</text>
+    </view>
+  </view>
+</template>

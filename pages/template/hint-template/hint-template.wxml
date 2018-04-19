@@ -1,0 +1,8 @@
+<template name='hintTemplate'>
+  <view class="cue">
+    <view class='hint' catchtap="gocardTap">
+      <text>我是艺术家，创建我的电子名片</text>
+    </view>
+    <image class="icon" src="/image/a/icon_10.png" catchtap="close"></image>
+  </view>
+</template>
